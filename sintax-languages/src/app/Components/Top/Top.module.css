@@ -33,6 +33,7 @@
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 5px;
+    text-transform: uppercase;
     color:  #e44d25;
 }
 .header .navList .listAnchor:hover{
