@@ -64,7 +64,7 @@
 
 /*Modo escuro*/
 .darkMode .header{
-    background-color: #030711;
+    background-color: black;
 }
 .darkMode .logo{
     filter: invert(1) brightness(2);
