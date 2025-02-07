@@ -5,4 +5,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .title{
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #9c4c23;
+    text-shadow: 5px 6px 10px  #ea8a3d;
 }
