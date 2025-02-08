@@ -1,0 +1,99 @@
+/*inicio estilos compartilhaveis*/
+/*sintax de html*/
+.title{
+    color: #e44d25;
+}
+/*sintax de css*/
+.tituloCss{
+   color: #1f62af;
+}
+/*setor de agrupamento*/
+.title,
+.tituloCss{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*sintax de html*/
+.containerCard{
+    border: 3px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 3px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss{
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+/*sintax de html*/
+.fieldSearch{
+    border: 3px solid #e44d25;
+}
+/*sintax css*/
+.fieldSearchCss{
+    border: 3px solid #1f62af;
+}
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/*fim estilos compartilhaveis*/
+
+.main{
+    width: 100%;
+    gap: 100px;
+}
+.main,
+.sectionHtml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Modo escuro*/
+.darkMode{
+    background-color: #030711;
+}
+.darkMode .main .sectionHtml .fieldSearch .iconSearch{
+    filter: invert(1) brightness(2);
+}
+.darkMode .main .sectionHtml .fieldSearchCss .iconSearch{
+    filter: invert(1) brightness(2);
+}
+
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+    width: 80%;
+    gap: 40px;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 24px;
+}
+.iconSearch{
+    width: 40px;
+    height: 40px;
+}
+
+/*estilos da secao sintax de css*/
