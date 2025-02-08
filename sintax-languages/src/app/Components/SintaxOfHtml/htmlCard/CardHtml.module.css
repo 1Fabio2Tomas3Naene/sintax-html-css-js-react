@@ -1,6 +1,6 @@
 .card{
-width: 400px;
-height: 600px;
+width: 468px;
+height: 650px;
 border: 4px solid #8f6143;
 border-radius: 10px;
 padding-top: 10px;
@@ -13,14 +13,16 @@ flex: 1 1 auto;
 }
 .title{
     font-size: 28px;
+    line-height: 40px;
     text-align: center;
     color: #3c778d;
 }
 .description{
     font-size: 26px;
+    text-align: center;
     color: #295e91;
 }
 .img{
     width: 100%;
-    height: 60%;
+    height: 50%;
 }
