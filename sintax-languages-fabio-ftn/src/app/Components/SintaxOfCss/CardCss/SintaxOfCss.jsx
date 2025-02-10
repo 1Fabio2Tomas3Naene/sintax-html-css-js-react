@@ -6,7 +6,7 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 export default function CardCss(props) {
     return(
         <div className={styles.card}>
-            <p className={styles.title}>{props.textoCss}<br></br>{props.propriedadeCss}</p>
+            <p className={styles.title}>{props.textoCss}<br></br>{props.valorCss}</p>
             <span className={styles.description}>{props.sintaxCss}<br></br><MdKeyboardDoubleArrowDown /></span>
             <Image src={props.imagemCss} alt={props.textoCss} title={props.textoCss} className={styles.img}/>
         </div>
