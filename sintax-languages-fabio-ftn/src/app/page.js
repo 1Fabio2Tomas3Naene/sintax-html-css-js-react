@@ -62,7 +62,7 @@ export default function Home() {
         <h3 className={styles.tituloCss}>Veja as sintax de css</h3>
         <div className={styles.fieldSearchCss}>
             <FaSearch className={styles.iconSearch}/>
-            <input type="text" placeholder="Digite aqui o nome da propriedade ou a categoria" value={typedWordCss} onChange={(Event) => HandleFilterByTypedWordCss(Event.target.value)} className={styles.input}/>
+            <input type="text" placeholder="Digite aqui o nome da propriedade ou a categoria"  value={typedWordCss} onChange={(Event) => HandleFilterByTypedWordCss(Event.target.value)}  className={styles.input}/>
           </div>
          <div className={styles.containerCardCss}>
          {
