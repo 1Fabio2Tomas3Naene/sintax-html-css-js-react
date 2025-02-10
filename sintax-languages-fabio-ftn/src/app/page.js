@@ -31,13 +31,15 @@ export default function Home() {
     setSintaxCss(searchByTypedWordCss(palavraDigtadaCss))
     setTtpedWordCss(palavraDigtadaCss);
   }
+  const sintaxHtmlLenght = sintaxHtml.length;
+  const sintaxCssLenght = sintaxCss.length;
   return (
     <div className={lightMode ? styles.darkMode : styles.lightMode}>
       <Top standardModeLightMode={lightMode} onClickSetLightMode={DarkMode}/>
       <main className={styles.main}>
         <Banner />
         <section className={styles.sectionHtml} id="html">
-          <h2 className={styles.title}>Veja as sintax de html</h2>
+          <h2 className={styles.title}>Veja {sintaxHtmlLenght} sintax de html</h2>
           <div className={styles.fieldSearch}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome da tag ou a categoria" value={typedWord} onChange={(Event) => HandleFilterByTypedWord(Event.target.value)} className={styles.input}/>
@@ -59,7 +61,7 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.sectionHtml}>
-        <h3 className={styles.tituloCss}>Veja as sintax de css</h3>
+        <h3 className={styles.tituloCss}>Veja {sintaxCssLenght} sintax de css</h3>
         <div className={styles.fieldSearchCss}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome da propriedade ou a categoria"  value={typedWordCss} onChange={(Event) => HandleFilterByTypedWordCss(Event.target.value)}  className={styles.input}/>
@@ -71,7 +73,7 @@ export default function Home() {
                 <CardCss 
                 key={sintaxCssItens.id}
                 textoCss={sintaxCssItens.texto}
-                propriedadeCss={sintaxCssItens.propriedade}
+                valorCss={sintaxCssItens.valor}
                 sintaxCss={sintaxCssItens.sintax}
                 imagemCss={sintaxCssItens.imagem}
                 />
