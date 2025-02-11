@@ -93,6 +93,17 @@ import textClignCenter from "./images/text-align-center.png";
 import textAlignLeft from "./images/text-align-eft.png";
 import textAlignRight from "./images/text-align-right.png";
 import width from "./images/width.png";
+import flexDirectionColumn from "./images/flex-direction-column.png";
+import flexDirectionRow from "./images/flex-direction-row.png";
+import justifyContentSpaceBetween from "./images/justify-content-space-between.png";
+import justifyContentCenter from "./images/justify-content-center.png";
+import alignItemsCenter from "./images/align-items-center.png";
+import gap from "./images/gap.png";
+import justifyContentSpaceEvenly from "./images/justify-content-space-evenly.png";
+import justifyContentSpaceAround from "./images/justify-content-space-around.png";
+import justifyContentFlexStart from "./images/justify-content-flex-start.png";
+import justifyContentFlexEnd from "./images/justify-content-flex-end.png";
+
 
 export const SintaxOfCssArray = [
     {id: 1, categoria: "listas", texto: "Eu sou o ordenador de lista usando numeros decimais com zero a esquerda", valor: "( decimal-leadind-zero )", sintax: "veja a minha sintax", imagem: listStyleTypeDecimalLeadingZero},
@@ -190,4 +201,14 @@ export const SintaxOfCssArray = [
     {id: 93, categoria: "tipografia", texto: "Eu alinho o texto a esquerda", valor: "( text-align: left )", sintax: "veja a minha sintax", imagem:  textAlignLeft},
     {id: 94, categoria: "tipografia", texto: "Eu alinho o texto a direita", valor: "( text-align: right )", sintax: "veja a minha sintax", imagem:  textAlignRight},
     {id: 95, categoria: "dimencao", texto: "Eu difino a largura dos elementos", valor: "( width )", sintax: "veja a minha sintax", imagem:   width},
+    {id: 96, categoria: "flex box", texto: "Eu coloco os itens flex em coluna um em baixo do outro", valor: "( flex-direction: column )", sintax: "veja a minha sintax", imagem:   flexDirectionColumn},
+    {id: 97, categoria: "flex box", texto: "Eu coloco os itens flex em linha um em frente do outro", valor: "( flex-direction: row )", sintax: "veja a minha sintax", imagem:   flexDirectionRow},
+    {id: 98, categoria: "flex box", texto: "Eu distribuo os itens flex no container", valor: "( justify-content: space-between )", sintax: "veja a minha sintax", imagem:   justifyContentSpaceBetween},
+    {id: 99, categoria: "flex box", texto: "Eu centralizo na horizontal os itens flex no container", valor: "( justify-content: center )", sintax: "veja a minha sintax", imagem:   justifyContentCenter},
+    {id: 100, categoria: "flex box", texto: "Eu centralizo na vertical os itens flex no container", valor: "( align-items: center )", sintax: "veja a minha sintax", imagem:   alignItemsCenter},
+    {id: 101, categoria: "flex box", texto: "Eu coloco um espaco entre os itens flex no container", valor: "( gap )", sintax: "veja a minha sintax", imagem:   gap},
+    {id: 102, categoria: "flex box", texto: "Eu alinho o conteudo flex da direita para a esquerda", valor: "( justify-content: flex-end )", sintax: "veja a minha sintax", imagem:   justifyContentFlexEnd},
+    {id: 103, categoria: "flex box", texto: "Eu alinho o conteudo flex da esquerda para a direita", valor: "( justify-content: flex-end )", sintax: "veja a minha sintax", imagem:   justifyContentFlexStart},
+    {id: 104, categoria: "flex box", texto: "Eu dou um espaco ao conteudo flex igual menor nas laterais e igual maior entre o conteudo", valor: "( justify-content: space-around )", sintax: "veja a minha sintax", imagem:   justifyContentSpaceAround},
+    {id: 105, categoria: "flex box", texto: "Eu dou um espaco ao conteudo flex uniformimente", valor: "( justify-content: space-evenly )", sintax: "veja a minha sintax", imagem:   justifyContentSpaceEvenly},
 ];
