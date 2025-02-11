@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sintanx-languages-fabio-ftn.vercel.app/Sitemap.xml
