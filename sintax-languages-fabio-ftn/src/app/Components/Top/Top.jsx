@@ -14,8 +14,8 @@ export default function Top(props){
             <Image src={Logo} alt="logo" title="logo" className={styles.logo}/>
             <span className={styles.lookSintax}>Veja as sintax de <RiArrowRightDoubleLine className={styles.arrow}/></span>
             <nav className={styles.navList}>
-                <li className={styles.listItem}><Link href="#" className={styles.listAnchor}>html</Link></li>
-                <li className={styles.listItem}><Link href="#" className={styles.listAnchor}>css</Link></li>
+                <li className={styles.listItem}><Link href="/#idSintaxHtml" className={styles.listAnchor}>html</Link></li>
+                <li className={styles.listItem}><Link href="/#idSintaxCss" className={styles.listAnchor}>css</Link></li>
                 <li className={styles.listItem}><Link href="#" className={styles.listAnchor}>js</Link></li>
                 <li className={styles.listItem}><Link href="#" className={styles.listAnchor}>react</Link></li>
             </nav>

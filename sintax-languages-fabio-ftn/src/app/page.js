@@ -38,7 +38,7 @@ export default function Home() {
       <Top standardModeLightMode={lightMode} onClickSetLightMode={DarkMode}/>
       <main className={styles.main}>
         <Banner />
-        <section className={styles.sectionHtml} id="html">
+        <section className={styles.sectionHtml} id="idSintaxHtml">
           <h2 className={styles.title}>Veja {sintaxHtmlLenght} sintax de html</h2>
           <div className={styles.fieldSearch}>
             <FaSearch className={styles.iconSearch}/>
@@ -60,7 +60,7 @@ export default function Home() {
             }
           </div>
         </section>
-        <section className={styles.sectionHtml}>
+        <section className={styles.sectionHtml} id="idSintaxCss">
         <h3 className={styles.tituloCss}>Veja {sintaxCssLenght} sintax de css</h3>
         <div className={styles.fieldSearchCss}>
             <FaSearch className={styles.iconSearch}/>
