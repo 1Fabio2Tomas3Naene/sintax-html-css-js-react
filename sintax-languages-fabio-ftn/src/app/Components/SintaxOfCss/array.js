@@ -236,4 +236,13 @@ export const SintaxOfCssArray = [
     {id: 111, categoria: "flex box", texto: "Eu me alinho a partir de cima", valor: "( align-self: baseline  )", sintax: "veja a minha sintax", imagem:   alignSelfBaseline},
     {id: 112, categoria: "flex box", texto: "Eu me alinho a partir de baixo", valor: "( align-self: flex-end )", sintax: "veja a minha sintax", imagem:   alignSelfFlexEnd},
     {id: 113, categoria: "flex box", texto: "Eu me alinho a partir de cima", valor: "( align-self: flex-start )", sintax: "veja a minha sintax", imagem: alignSelfFlexStart},
+    {id: 114, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu centralizo as linhas quebradas na vertical", valor: "( align-content: center )", sintax: "veja a minha sintax", imagem: alignContentCenter},
+    {id: 115, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu alinho o conteudo comecando de baixo", valor: "( align-content: flex-end )", sintax: "veja a minha sintax", imagem: alignContentFlexEnd},
+    {id: 116, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu alinho o conteudo comecando de cima", valor: "( align-content: flex-start )", sintax: "veja a minha sintax", imagem: alignContentFlexStart},
+    {id: 117, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu coloco um espaco igual menor em cima e em baixo, e um espaco igual maior entre as linhas quebradas", valor: "( align-content: space-around)", sintax: "veja a minha sintax", imagem: alignContentSpaceAround},
+    {id: 118, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu espalho as linhas quebradas na vertical", valor: "( align-content: space-between )", sintax: "veja a minha sintax", imagem: alignContentSpaceBetween},
+    {id: 119, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu coloco um espaco uniforme entre as linhas quebradas", valor: "( align-content: space-evenly )", sintax: "veja a minha sintax", imagem: alignContentSpaceEvenly},
+    {id: 120, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu estico o conteudo nas linhas quebradas para ocuparem a altura disponivel na linha", valor: "( align-content: stretch )", sintax: "veja a minha sintax", imagem: alignContentStretch},
+    {id: 121, categoria: "flex box", texto: "Eu quebro a linha quando os itens atinguem a largura do container", valor: "( flex-wrap: wrap )", sintax: "veja a minha sintax", imagem: flexWrapWrap},
+    {id: 122, categoria: "flex box", texto: "Eu impeco a quebra de linha quando os itens atinguem a largura do container", valor: "( flex-wrap: nowrap )", sintax: "veja a minha sintax", imagem: flexWrapNowrap},
 ];
