@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import { useState } from "react";
+import Link from "next/link";
 import styles from "./page.module.css";
 import Top from "./Components/Top/Top";
 import Banner from "./Components/Banner/Banner";
@@ -82,6 +83,9 @@ export default function Home() {
           }
          </div>
         </section>
+        <aside>
+          <button className={styles.buttonCodeLink}><Link href="https://github.com/1Fabio2Tomas3Naene/sintax-html-css-js-react" target="_blanck" rel="noopener noreferrer" className={styles.codeLink}>Veja o código do projeto</Link></button>
+        </aside>
       </main>
     </div>
   );
