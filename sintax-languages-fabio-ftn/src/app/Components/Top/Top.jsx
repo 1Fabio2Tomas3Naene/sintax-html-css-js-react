@@ -12,7 +12,7 @@ export default function Top(props){
         <div className={props.standardModeLightMode ? styles.darkMode : styles.lightMode}>
             <header className={styles.header}>
             <Image src={Logo} alt="logo" title="logo" className={styles.logo}/>
-            <span className={styles.lookSintax}>Veja as sintax de <RiArrowRightDoubleLine className={styles.arrow}/></span>
+            <span className={styles.lookSintax}>Veja as sintaxes de <RiArrowRightDoubleLine className={styles.arrow}/></span>
             <nav className={styles.navList}>
                 <li className={styles.listItem}><Link href="/#idSintaxHtml" className={styles.listAnchor}>html</Link></li>
                 <li className={styles.listItem}><Link href="/#idSintaxCss" className={styles.listAnchor}>css</Link></li>

@@ -39,7 +39,7 @@ export default function Home() {
       <main className={styles.main}>
         <Banner />
         <section className={styles.sectionHtml} id="idSintaxHtml">
-          <h2 className={styles.title}>Veja {sintaxHtmlLenght} sintax de html</h2>
+          <h2 className={styles.title}>Veja {sintaxHtmlLenght} sintaxes de html</h2>
           <div className={styles.fieldSearch}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome da tag ou a categoria" value={typedWord} onChange={(Event) => HandleFilterByTypedWord(Event.target.value)} className={styles.input}/>
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxCss">
-        <h3 className={styles.tituloCss}>Veja {sintaxCssLenght} sintax de css</h3>
+        <h3 className={styles.tituloCss}>Veja {sintaxCssLenght} sintaxs de css</h3>
         <div className={styles.fieldSearchCss}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome da propriedade ou a categoria"  value={typedWordCss} onChange={(Event) => HandleFilterByTypedWordCss(Event.target.value)}  className={styles.input}/>
