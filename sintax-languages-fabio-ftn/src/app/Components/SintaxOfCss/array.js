@@ -100,9 +100,26 @@ import justifyContentCenter from "./images/justify-content-center.png";
 import alignItemsCenter from "./images/align-items-center.png";
 import gap from "./images/gap.png";
 import justifyContentSpaceEvenly from "./images/justify-content-space-evenly.png";
-import justifyContentSpaceAround from "./images/justify-content-space-around.png";
+import  justifyContentSpaceAround from "./images/ justify-content-space-around.png";
 import justifyContentFlexStart from "./images/justify-content-flex-start.png";
 import justifyContentFlexEnd from "./images/justify-content-flex-end.png";
+import alignItemsStretch from "./images/align-items-stretch.png";
+import alignItemsFlexStart from "./images/align-items-flex-start.png";
+import alignItemsFlexEnd from "./images/align-items-flex-end.png";
+import alignItemsBaseline from "./images/align-items-baseline.png";
+import  alignSelfFlexStart from "./images/align-self-flex-start.png";
+import  alignSelfFlexEnd from "./images/ align-self-flex-end.png";
+import alignSelfCenter from "./images/align-self-center.png";
+import alignSelfBaseline from "./images/align-self-baseline.png";
+import flexWrapNowrap from "./images/flex-wrap-nowrap.png";
+import flexWrapWrap from "./images/flex-wrap-wrap.png";
+import alignContentStretch from "./images/align-content-stretch.png";
+import alignContentSpaceEvenly from "./images/align-content-space-evenly.png";
+import alignContentSpaceBetween from "./images/align-content-space-between.png";
+import alignContentSpaceAround from "./images/align-content-space-around.png";
+import alignContentFlexStart from "./images/align-content-flex-start.png";
+import alignContentFlexEnd from "./images/align-content-flex-end.png";
+import alignContentCenter from "./images/align-content-center.png";
 
 
 export const SintaxOfCssArray = [
@@ -140,8 +157,8 @@ export const SintaxOfCssArray = [
     {id: 32, categoria: "bordas", texto: "Eu coloco uma largura na borda superior da caixa", valor: "( border-top-width )", sintax: "veja a minha sintax", imagem:  borderTopWidth},
     {id: 33, categoria: "bordas", texto: "Eu coloco uma borda no lado superior da caixa", valor: "( border-top )", sintax: "veja a minha sintax", imagem:  borderTop},
     {id: 34, categoria: "bordas", texto: "Eu coloco uma largura nas bordas da caixa", valor: "( border-width )", sintax: "veja a minha sintax", imagem:  borderWidth},
-    {id: 35, categoria: "flex model", texto: "Eu faco com que a largura e altura da da caixa sejam respeitadas", valor: "( box-sizing )", sintax: "veja a minha sintax", imagem:  boxSizingBorderBox},
-    {id: 36, categoria: "flex model", texto: "Eu faco com que a largura e altura da da caixa nao sejam respeitadas", valor: "( box-sizing )", sintax: "veja a minha sintax", imagem:  boxSizingContentBox},
+    {id: 35, categoria: "box model", texto: "Eu faco com que a largura e altura da da caixa sejam respeitadas", valor: "( box-sizing )", sintax: "veja a minha sintax", imagem:  boxSizingBorderBox},
+    {id: 36, categoria: "box model", texto: "Eu faco com que a largura e altura da da caixa nao sejam respeitadas", valor: "( box-sizing )", sintax: "veja a minha sintax", imagem:  boxSizingContentBox},
     {id: 37, categoria: "bordas", texto: "Eu coloco bordas estilos de borda e cor da borda nos 4 lados da caixa", valor: "( border )", sintax: "veja a minha sintax", imagem:  border},
     {id: 38, categoria: "cores", texto: "Eu pinto o texto com uma cor em matiz, saturação, luminosidade", valor: "( hsl(hue, saturation, lightness) )", sintax: "veja a minha sintax", imagem:  colorHsl},
     {id: 39, categoria: "cores", texto: "Eu pinto o texto com uma cor em matiz, saturação, luminosidade, alfa", valor: "( hsla(hue, saturation, lightness, alpha) )", sintax: "veja a minha sintax", imagem:  colorHsla},
@@ -150,9 +167,9 @@ export const SintaxOfCssArray = [
     {id: 42, categoria: "cores", texto: "Eu pinto o texto com uma cor em vermelha, verde, azul ", valor: "rgb()", sintax: "veja a minha sintax", imagem:  colorRgb},
     {id: 43, categoria: "cores", texto: "Eu pinto o texto com uma cor em vermelha, verde, azul, com transparencia ", valor: "( rgba() )", sintax: "veja a minha sintax", imagem:  colorRgba},
     {id: 44, categoria: "cores", texto: "Eu pinto o texto com uma cor nominal", valor: "( red )", sintax: "veja a minha sintax", imagem:  color},
-    {id: 45, categoria: "flex model", texto: "Eu exibo os itens en colunas um em baixo do outro", valor: "( block )", sintax: "veja a minha sintax", imagem: displayBlock},
+    {id: 45, categoria: "box model", texto: "Eu exibo os itens en colunas um em baixo do outro", valor: "( block )", sintax: "veja a minha sintax", imagem: displayBlock},
     {id: 46, categoria: "flex box", texto: "Eu exibo os itens flexivelmente um em frente do outro", valor: "( flex )", sintax: "veja a minha sintax", imagem: displayFlex},
-    {id: 47, categoria: "flex model", texto: "Eu exibo os itens en linha um em frente do outro", valor: "( inline )", sintax: "veja a minha sintax", imagem: displayInline},
+    {id: 47, categoria: "box model", texto: "Eu exibo os itens en linha um em frente do outro", valor: "( inline )", sintax: "veja a minha sintax", imagem: displayInline},
     {id: 48, categoria: "flex box flex: 1;", texto: "Eu faco crescer, encolho e verifico a largua dos itens flexiveis", valor: "( flex: 1 )", sintax: "veja a minha sintax", imagem: flex1},
     {id: 49, categoria: "flex box flex: auto;", texto: "Eu faco crescer, encolho e verifico a largua dos itens flexiveis", valor: "( auto )", sintax: "veja a minha sintax", imagem: flexAuto},
     {id: 50, categoria: "flex box flex-basis: ;", texto: "Eu difino a largua inicial dos itens flexiveis", valor: "( flex-basis )", sintax: "veja a minha sintax", imagem: flexBasis},
@@ -208,7 +225,15 @@ export const SintaxOfCssArray = [
     {id: 100, categoria: "flex box", texto: "Eu centralizo na vertical os itens flex no container", valor: "( align-items: center )", sintax: "veja a minha sintax", imagem:   alignItemsCenter},
     {id: 101, categoria: "flex box", texto: "Eu coloco um espaco entre os itens flex no container", valor: "( gap )", sintax: "veja a minha sintax", imagem:   gap},
     {id: 102, categoria: "flex box", texto: "Eu alinho o conteudo flex da direita para a esquerda", valor: "( justify-content: flex-end )", sintax: "veja a minha sintax", imagem:   justifyContentFlexEnd},
-    {id: 103, categoria: "flex box", texto: "Eu alinho o conteudo flex da esquerda para a direita", valor: "( justify-content: flex-end )", sintax: "veja a minha sintax", imagem:   justifyContentFlexStart},
+    {id: 103, categoria: "flex box", texto: "Eu alinho o conteudo flex da esquerda para a direita", valor: "( justify-content: flex-start )", sintax: "veja a minha sintax", imagem:   justifyContentFlexStart},
     {id: 104, categoria: "flex box", texto: "Eu dou um espaco ao conteudo flex igual menor nas laterais e igual maior entre o conteudo", valor: "( justify-content: space-around )", sintax: "veja a minha sintax", imagem:   justifyContentSpaceAround},
     {id: 105, categoria: "flex box", texto: "Eu dou um espaco ao conteudo flex uniformimente", valor: "( justify-content: space-evenly )", sintax: "veja a minha sintax", imagem:   justifyContentSpaceEvenly},
+    {id: 106, categoria: "flex box", texto: "Eu alinho os itens comecando de cima para baixo", valor: "( align-items: baseline )", sintax: "veja a minha sintax", imagem:   alignItemsBaseline},
+    {id: 107, categoria: "flex box", texto: "Eu alinho os itens comecando de baixo para cima", valor: "( align-items: flex-end )", sintax: "veja a minha sintax", imagem:   alignItemsFlexEnd},
+    {id: 108, categoria: "flex box", texto: "Eu alinho os itens comecando de cima para baixo", valor: "( align-items: flex-start )", sintax: "veja a minha sintax", imagem:   alignItemsFlexStart},
+    {id: 109, categoria: "flex box", texto: "Eu estico os itens para ocuparem a altura disponivel", valor: "( align-items: stretch )", sintax: "veja a minha sintax", imagem:   alignItemsStretch},
+    {id: 110, categoria: "flex box", texto: "Eu me alinho a partie do centro", valor: "( align-self: center )", sintax: "veja a minha sintax", imagem:  alignSelfCenter},
+    {id: 111, categoria: "flex box", texto: "Eu me alinho a partir de cima", valor: "( align-self: baseline  )", sintax: "veja a minha sintax", imagem:   alignSelfBaseline},
+    {id: 112, categoria: "flex box", texto: "Eu me alinho a partir de baixo", valor: "( align-self: flex-end )", sintax: "veja a minha sintax", imagem:   alignSelfFlexEnd},
+    {id: 113, categoria: "flex box", texto: "Eu me alinho a partir de cima", valor: "( align-self: flex-start )", sintax: "veja a minha sintax", imagem: alignSelfFlexStart},
 ];
