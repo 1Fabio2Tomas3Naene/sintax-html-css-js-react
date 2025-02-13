@@ -5,7 +5,7 @@ import styles from "./Top.module.css";
 import { IoMoonOutline } from "react-icons/io5";
 import { RxSun } from "react-icons/rx";
 import { RiArrowRightDoubleLine } from "react-icons/ri";
-import Logo from "../../../../public/sintax-logo.jpg";
+import Logo from "../../../../public/sintax-logo.svg";
 
 export default function Top(props){
     return(
