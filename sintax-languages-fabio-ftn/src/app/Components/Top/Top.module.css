@@ -24,6 +24,9 @@
     height: 30px;
     margin-left: 20px;
 } 
+.arrow02{
+    display: none;
+}
 .header .navList{
     list-style-type: none;
     display: flex;
