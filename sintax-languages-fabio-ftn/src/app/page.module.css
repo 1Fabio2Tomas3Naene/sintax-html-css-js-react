@@ -110,4 +110,70 @@
     font-size: 26px;
     color: #1f62af;
 }
-/*responsividade*/
+/*responsivo de < 319px  ate > 769px*/
+@media screen and (min-width: 319px) and (max-width: 768px){
+    .main{
+        gap: 30px;
+    }
+    /*setor de agrupamento*/
+.title,
+.tituloCss{
+    font-size: 24px;
+}
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss{
+    width: 95%;
+    height: 40px;
+    gap: 0;
+}
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+        width: 100%;
+    }
+    .input{
+        font-size: 13px;
+    }
+    .iconSearch{
+        width: 30px;
+        height: 30px;
+    }
+    /*sintax de html*/
+.containerCard{
+    border: 2px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 3px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss{
+    width: 95%;
+    height: 50vh;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+/*link para o codigo do projeto*/
+.buttonCodeLink{
+    width: 100%;
+    padding: 10px;
+}
+.codeLink{
+    font-size: 20px;
+}
+}
+/*responsivo de 479px  ate  768px*/
+@media screen and (min-width: 482px) and (max-width: 768px){
+    .title,
+    .tituloCss{
+    font-size: 36px;
+}
+.input{
+    font-size: 20px;
+}
+}

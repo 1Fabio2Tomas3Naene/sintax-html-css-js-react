@@ -70,3 +70,110 @@
 .darkMode .logo{
     filter: invert(1) brightness(2);
 }
+
+/*responsivo de  320px  ate  768px*/
+@media screen and (min-width: 319px) and (max-width: 768px){
+    .header{
+        display: none;
+        width: 100%;
+        height: 13vh;
+        display: block;
+        
+    }
+    
+    .header,
+    .lookSintax,
+    .navList,
+    .buttonSwitchMode{
+        position: relative;
+    }
+    .header .logo{
+        width: 60px;
+        height: 50px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .header .lookSintax{
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 20px;
+        left: 0;
+    }
+    .arrow{
+        display: none;
+    }
+    .header .navList{
+        list-style-type: none;
+        justify-content: center;
+        gap: 15px;
+        position: relative;
+        top: 40px;
+        left: 0;
+    }
+    
+    .header .navList .listAnchor{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .header .navList .listAnchor:hover{
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .header .buttonSwitchMode{
+        border-style: none;
+        border: 1px solid #e5a329;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 0;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+    
+    .header .buttonSwitchMode .iconMode{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .header .buttonSwitchMode .textMode{
+        gap: 4px;
+        font-size: 12px;
+    }
+}
+/*responsivo de 479px  ate  768px*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .header{
+        height: 16vh;
+    }
+    .header .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .header .lookSintax{
+        font-size: 34px;
+    }
+    .header .buttonSwitchMode{
+        padding: 15px 10px;
+    }
+    .header .buttonSwitchMode .iconMode{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .header .buttonSwitchMode .textMode{
+        gap: 5px;
+        font-size: 20px;
+    }
+    .header .navList{
+        gap: 40px;
+    }
+    .header .navList .listAnchor{
+        font-size: 24px;
+    }
+}
