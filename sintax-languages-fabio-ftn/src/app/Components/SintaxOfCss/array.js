@@ -120,6 +120,7 @@ import alignContentSpaceAround from "./images/align-content-space-around.svg";
 import alignContentFlexStart from "./images/align-content-flex-start.svg";
 import alignContentFlexEnd from "./images/align-content-flex-end.svg";
 import alignContentCenter from "./images/align-content-center.svg";
+import flexDirectionRowReverse from "./images/flex-direction-row-reverse.svg";
 
 
 
@@ -247,4 +248,5 @@ export const SintaxOfCssArray = [
     {id: 120, categoria: "flex box", texto: "Eu funciono quando haver quebra de linha, eu estico o conteudo nas linhas quebradas para ocuparem a altura disponivel na linha", valor: "( align-content: stretch )", sintax: "veja a minha sintax", imagem: alignContentStretch},
     {id: 121, categoria: "flex box", texto: "Eu quebro a linha quando os itens atinguem a largura do container", valor: "( flex-wrap: wrap )", sintax: "veja a minha sintax", imagem: flexWrapWrap},
     {id: 122, categoria: "flex box", texto: "Eu impeco a quebra de linha quando os itens atinguem a largura do container", valor: "( flex-wrap: nowrap )", sintax: "veja a minha sintax", imagem: flexWrapNowrap},
+    {id: 123, categoria: "flex box", texto: "Eu inverto os itens alinhados em linha, o primeiro pasa a ser o ultilo e nessa ordem", valor: "( flex-direction: row-reverse )", sintax: "veja a minha sintax", imagem: flexDirectionRowReverse},
 ];
