@@ -125,7 +125,7 @@ import alignContentCenter from "./images/align-content-center.svg";
 
 
 export const SintaxOfCssArray = [
-    {id: 1, categoria: "listas", texto: "Eu sou o ordenador de lista usando numeros decimais com zero a esquerda", valor: "( decimal-leadind-zero )", sintax: "veja a minha sintax", imagem: listStyleTypeDecimalLeadingZero},
+    {id: 1, categoria: "listas", texto: "Eu sou o ordenador de lista usando numeros decimais com zero a esquerda", valor: "( decimal-leading-zero )", sintax: "veja a minha sintax", imagem: listStyleTypeDecimalLeadingZero},
     {id: 2, categoria: "listas", texto: "Eu sou o ordenador de lista usando numeros decimais", valor: "( decimal )", sintax: "vera a minha sintax", imagem: liststyletypeDicimal},
     {id: 3, categoria: "listas", texto: "Eu sou o ordenador de lista usando letras latinas minusculas", valor: "( lower-alpha )", sintax: "veja a minha sintax", imagem: listStyleTypeLowerAlpha},
     {id: 4, categoria: "listas", texto: "Eu sou o ordenador de lista usando letras latinas minusculas", valor: "( lower-latin )", sintax: "veja a minha sintax", imagem: listStyleTypeLowerLatin},
