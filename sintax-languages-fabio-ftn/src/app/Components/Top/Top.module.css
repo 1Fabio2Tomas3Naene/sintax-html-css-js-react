@@ -111,6 +111,9 @@
     .arrow{
         display: none;
     }
+    .arrow02{
+        display: block;
+    }
     .header .navList{
         list-style-type: none;
         justify-content: center;
