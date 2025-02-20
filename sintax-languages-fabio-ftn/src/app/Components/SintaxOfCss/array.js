@@ -147,6 +147,9 @@ import alignContentFirstBaseline from "./images/align-content-first-baseline.svg
 import columnGap from "./images/column-gap.svg";
 import gap02 from "./images/gap02.svg";
 import rowGap from "./images/row-gap.svg";
+import boxShadow from "./images/box-shadow.svg";
+import textTransformUppercase from "./images/text-transform-uppercase.svg";
+import boxShadowInset from "./images/box-shadow-inset.svg";
 
 
 export const SintaxOfCssArray = [
@@ -299,4 +302,7 @@ export const SintaxOfCssArray = [
     {id: 147, categoria: "flex box", texto: "Eu coloco nalunas nas linhas horizontais, itens que o container possue flex-direction: column", valor: "( row-gap: )", sintax: "veja a minha sintax", imagem: rowGap},
     {id: 148, categoria: "flex box", texto: "Eu coloco nalunas nas linhas verticais, itens que o container possue flex-direction: row", valor: "( column-gap: )", sintax: "veja a minha sintax", imagem: columnGap},
     {id: 149, categoria: "flex box", texto: "Eu coloco nalunas nas linhas verticais e horizontais, itens que o container possue flex-wap: wrap", valor: "( gap: )", sintax: "veja a minha sintax", imagem: gap02},
+    {id: 150, categoria: "box shadow", texto: "Eu coloco uma sombra dentro da caixa", valor: "( box-shadow: inset)", sintax: "veja a minha sintax", imagem: boxShadowInset},
+    {id: 151, categoria: "box shadow", texto: "Eu coloco uma sombra fora da caixa", valor: "( box-shadow )", sintax: "veja a minha sintax", imagem: boxShadow},
+    {id: 152, categoria: "text transform", texto: "Eu transformo as letras de minusculas para maiusculas", valor: "( text-transform: uppercase )", sintax: "veja a minha sintax", imagem: textTransformUppercase},
 ];
