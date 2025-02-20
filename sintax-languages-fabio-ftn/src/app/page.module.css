@@ -7,9 +7,14 @@
 .tituloCss{
    color: #1f62af;
 }
+/*sintax de javascript*/
+.tituloJs{
+    color: #e5a329;
+}
 /*setor de agrupamento*/
 .title,
-.tituloCss{
+.tituloCss,
+.tituloJs{
     font-size: 40px;
     font-weight: bold;
 }
@@ -22,9 +27,13 @@
 .containerCardCss{
     border: 3px solid  #1f62af;
 }
+.containerCardJs{
+    border: 3px solid #e5a329;
+}
 /*setor de agrupamento*/
 .containerCard,
-.containerCardCss{
+.containerCardCss,
+.containerCardJs{
     width: 100%;
     height: 80vh;
     border-radius: 10px;
@@ -43,9 +52,14 @@
 .fieldSearchCss{
     border: 3px solid #1f62af;
 }
+/*sintax javascript*/
+.fieldSearchJs{
+    border: 3px solid #e5a329;
+}
 /*setor de agrupamento*/
 .fieldSearch,
-.fieldSearchCss{
+.fieldSearchCss,
+.fieldSearchJs{
     width: 100%;
     height: 50px;
     border-radius: 10px;
@@ -76,7 +90,9 @@
 .darkMode .main .sectionHtml .fieldSearchCss .iconSearch{
     filter: invert(1) brightness(2);
 }
-
+.darkMode .fieldSearchJs .iconSearch{
+    filter: invert(1) brightness(2); 
+}
 /*Estilos da secao sintax de html*/
 .sectionHtml{
     width: 80%;
@@ -117,12 +133,14 @@
     }
     /*setor de agrupamento*/
 .title,
-.tituloCss{
+.tituloCss,
+.tituloJs{
     font-size: 24px;
 }
 /*setor de agrupamento*/
 .fieldSearch,
-.fieldSearchCss{
+.fieldSearchCss,
+.fieldSearchJs{
     width: 95%;
     height: 40px;
     gap: 0;
@@ -148,7 +166,8 @@
 }
 /*setor de agrupamento*/
 .containerCard,
-.containerCardCss{
+.containerCardCss,
+.containerCardJs{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -170,7 +189,8 @@
 /*responsivo de 479px  ate  768px*/
 @media screen and (min-width: 482px) and (max-width: 768px){
     .title,
-    .tituloCss{
+    .tituloCss,
+    .tituloJs{
     font-size: 36px;
 }
 .input{
