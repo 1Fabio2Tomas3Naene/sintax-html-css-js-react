@@ -10,30 +10,39 @@ import { SintaxOfCssAll, searchByTypedWordCss } from "./Components/SintaxOfCss/f
 import CardHtml from "./Components/SintaxOfHtml/htmlCard/CardHtml";
 import CardCss from "./Components/SintaxOfCss/CardCss/SintaxOfCss";
 import { FaSearch } from "react-icons/fa";
+import { allSintaxesOfJs, filterByTypedWordJs } from "./Components/sintaxOfJs/functions";
+import CardOfJs from "./Components/sintaxOfJs/cardOfJs";
 
 
 export default function Home() {
   const [lightMode, setLightMode] = useState(false);
-  const [sintaxHtml, setSintaxHtml] = useState(allSintaxOfHtml);
-  const [typedWord, setTypedWord] =useState("");
-
-  const [sintaxCss, setSintaxCss] = useState(SintaxOfCssAll);
-  const [typedWordCss, setTtpedWordCss] = useState(" ");
-
   const DarkMode = () =>{
     setLightMode(!lightMode);
   }
+
+  const [sintaxHtml, setSintaxHtml] = useState(allSintaxOfHtml);
+  const [typedWord, setTypedWord] =useState("");
+  const sintaxHtmlLenght = sintaxHtml.length;
   const HandleFilterByTypedWord = (paravraDigitada) =>{
     setSintaxHtml(searchByTypedWord(paravraDigitada))
     setTypedWord(paravraDigitada)
   }
 
+  const [sintaxCss, setSintaxCss] = useState(SintaxOfCssAll);
+  const [typedWordCss, setTtpedWordCss] = useState(" ");
+  const sintaxCssLenght = sintaxCss.length;
   const HandleFilterByTypedWordCss =(palavraDigtadaCss) =>{
     setSintaxCss(searchByTypedWordCss(palavraDigtadaCss))
     setTtpedWordCss(palavraDigtadaCss);
   }
-  const sintaxHtmlLenght = sintaxHtml.length;
-  const sintaxCssLenght = sintaxCss.length;
+
+  const [sintaxJs, setSintaxJs] = useState(allSintaxesOfJs);
+  const [typedWordJs, setypedWordJs] = useState("");
+  const sintaxesOfJsLenght = sintaxJs.length;
+  const HandleFilterByTypedWordJs = (typedWordJs) => {
+    setSintaxJs(filterByTypedWordJs(typedWordJs))
+    setypedWordJs(typedWordJs)
+  };
   return (
     <div className={lightMode ? styles.darkMode : styles.lightMode}>
       <Top standardModeLightMode={lightMode} onClickSetLightMode={DarkMode}/>
@@ -42,7 +51,7 @@ export default function Home() {
         <section className={styles.sectionHtml} id="idSintaxHtml">
           <h2 className={styles.title}>Veja {sintaxHtmlLenght} sintaxes de html</h2>
           <div className={styles.fieldSearch}>
-            <FaSearch className={styles.iconSearch}/>
+            <FaSearch className={styles.iconSearchjs}/>
             <input type="text" placeholder="Digite aqui o nome da tag ou a categoria" value={typedWord} onChange={(Event) => HandleFilterByTypedWord(Event.target.value)} className={styles.input}/>
           </div>
           <div className={styles.containerCard}>
@@ -81,6 +90,28 @@ export default function Home() {
               )
             })
           }
+         </div>
+        </section>
+        <section className={styles.sectionHtml}>
+        <h3 className={styles.tituloJs}>Veja {sintaxesOfJsLenght} sintaxs de javascript</h3>
+        <div className={styles.fieldSearchJs}>
+            <FaSearch className={styles.iconSearch}/>
+            <input type="text" placeholder="Digite aqui o nome do comando ou a categoria"  value={typedWordJs} onChange={(Event) => HandleFilterByTypedWordJs(Event.target.value)}  className={styles.input}/>
+          </div>
+         <div className={styles.containerCardJs}>
+         {
+          sintaxJs.map((sintaxJsItems) => {
+            return(
+              <CardOfJs 
+              key = {sintaxJsItems.id}
+              textoJs = {sintaxJsItems.texto}
+              comandoJs = {sintaxJsItems.comando}
+              vejaSinataxJs = {sintaxJsItems.sintax}
+              imagemJs = {sintaxJsItems.imagem}
+              />
+            )
+          })
+         }
          </div>
         </section>
         <aside>
