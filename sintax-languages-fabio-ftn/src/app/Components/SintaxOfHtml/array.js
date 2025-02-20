@@ -36,7 +36,8 @@ import del from "./image/del.svg";
 import Class from "./image/class.svg";
 import aTargetSelf from "./image/a-target-self.svg";
 import aTargetBlanck from "./image/a-target-blanck.svg";
-
+import scriptTag from "./image/script-tag.svg";
+import scriptExterno from "./image/script-externo.svg";
  
  const sintaxOfHtml = [
     {id: 1, categoria: "meta dados, tags de cabecalho", texto: "Eu especifico a versao ", tag: "( !DOCTYPE )", sintax: "veja a minha sintax", imagem: ImageDoctype},
@@ -55,28 +56,30 @@ import aTargetBlanck from "./image/a-target-blanck.svg";
     {id: 14, categoria: "lista", texto: "Eu ordeno os itens da lista com letras romanos minusculas", tag: "( type='i' )", sintax: "veja a minha sintax", imagem: olTypei},
     {id: 15, categoria: "lista", texto: "Eu ordeno os itens da lista com letras latinas minusculas", tag: "( type='a' )", sintax: "veja a minha sintax", imagem: olTypea},
     {id: 16, categoria: "lista", texto: "Eu ordeno os itens da lista com letras latinas maiusculas", tag: "( type='A' )", sintax: "veja a minha sintax", imagem: olTypeA},
-    {id: 18, categoria: "lista", texto: "Eu ordeno os itens da lista com numeros decimais", tag: "( type='1' )", sintax: "veja a minha sintax", imagem: olType1},
-    {id: 19, categoria: "lista", texto: "Eu difino por onde a ordenacao dos itens na lista deve comecar", tag: "( start )", sintax: "veja a minha sintax", imagem: olStart},
-    {id: 20, categoria: "lista", texto: "Eu inverto a ordenacao dos itens da lista, isto e, de grande para pequeno", tag: "( reversed )", sintax: "veja a minha sintax", imagem: olReversed},
-    {id: 21, categoria: "meta dados, tags de cabecalho", texto: "Eu difino o titulo da pagina que aparece na aba do navegador", tag: "( title )", sintax: "veja a minha sintax", imagem: metaTitle},
-    {id: 22, categoria: "texto", texto: "Eu difino o texto que deve ser marcado ou destacado", tag: "( mark )", sintax: "veja a minha sintax", imagem: mark},
-    {id: 23, categoria: "meta dados, tags de cabecalho", texto: "Eu vinculo o css ao html para a estilizacao", tag: "( link )", sintax: "veja a minha sintax", imagem: metaLinkRel},
-    {id: 24, categoria: "texto", texto: "Eu indico o texto que substituiu o outro ou que foi inserido", tag: "( ins )", sintax: "veja a minha sintax", imagem: ins},
-    {id: 25, categoria: "media", texto: "Eu incorporo uma imagem a pagina", tag: "( img )", sintax: "veja a minha sintax", imagem: img},
-    {id: 26, categoria: "seletor", texto: "Eu seleciono o elemento html pelo seu id", tag: "( id )", sintax: "veja a minha sintax", imagem: id},
-    {id: 27, categoria: "texto", texto: "Eu deixo o texto em italico com um significado semantico, nome de navios, ternos tecnicos, paravras estrangeiras, etc", tag: "( i )", sintax: "veja a minha sintax", imagem: i},
-    {id: 28, categoria: "titulo", texto: "Eu difino subtilo no nivel 6 mais menor", tag: "( h6 )", sintax: "veja a minha sintax", imagem: h6},
-    {id: 29, categoria: "titulo", texto: "Eu difino subtilo no nivel 5 maior que 6", tag: "( h5 )", sintax: "veja a minha sintax", imagem: h5},
-    {id: 30, categoria: "titulo", texto: "Eu difino subtilo no nivel 4 maior que 5", tag: "( h4 )", sintax: "veja a minha sintax", imagem: h4},
-    {id: 31, categoria: "titulo", texto: "Eu difino subtilo no nivel 3 maior que 4", tag: "( h3 )", sintax: "veja a minha sintax", imagem: h3},
-    {id: 32, categoria: "titulo", texto: "Eu difino subtilo no nivel 2 maior que 3", tag: "( h2 )", sintax: "veja a minha sintax", imagem: h2},
-    {id: 33, categoria: "titulo", texto: "Eu difino subtilo no nivel 1 maior que 2, e sou o mais grande", tag: "( h1 )", sintax: "veja a minha sintax", imagem: h1},
-    {id: 34, categoria: "texto", texto: "Eu dou enfase ao texto", tag: "( hem )", sintax: "veja a minha sintax", imagem: em},
-    {id: 35, categoria: "lista", texto: "Eu crio listas de difinicao", tag: "( dl )", sintax: "veja a minha sintax", imagem: dlDtDd},
-    {id: 36, categoria: "texto", texto: "Eu indico un texto que foi removido que ja nao existe num documento", tag: "( del )", sintax: "veja a minha sintax", imagem: del},
-    {id: 37, categoria: "seletor", texto: "Eu seleciono o elemento html pela sua classe", tag: "( class )", sintax: "veja a minha sintax", imagem: Class},
-    {id: 38, categoria: "link", texto: "Eu crio links que ao ser clicado abre a pagina na mesma aba do navegador", tag: "( a )", sintax: "veja a minha sintax", imagem: aTargetSelf},
-    {id: 39, categoria: "link", texto: "Eu crio links que ao ser clicado abre a pagina na nova aba do navegador", tag: "( a )", sintax: "veja a minha sintax", imagem: aTargetBlanck},
+    {id: 17, categoria: "lista", texto: "Eu ordeno os itens da lista com numeros decimais", tag: "( type='1' )", sintax: "veja a minha sintax", imagem: olType1},
+    {id: 18, categoria: "lista", texto: "Eu difino por onde a ordenacao dos itens na lista deve comecar", tag: "( start )", sintax: "veja a minha sintax", imagem: olStart},
+    {id: 19, categoria: "lista", texto: "Eu inverto a ordenacao dos itens da lista, isto e, de grande para pequeno", tag: "( reversed )", sintax: "veja a minha sintax", imagem: olReversed},
+    {id: 20, categoria: "meta dados, tags de cabecalho", texto: "Eu difino o titulo da pagina que aparece na aba do navegador", tag: "( title )", sintax: "veja a minha sintax", imagem: metaTitle},
+    {id: 21, categoria: "texto", texto: "Eu difino o texto que deve ser marcado ou destacado", tag: "( mark )", sintax: "veja a minha sintax", imagem: mark},
+    {id: 22, categoria: "meta dados, tags de cabecalho", texto: "Eu vinculo o css ao html para a estilizacao", tag: "( link )", sintax: "veja a minha sintax", imagem: metaLinkRel},
+    {id: 23, categoria: "texto", texto: "Eu indico o texto que substituiu o outro ou que foi inserido", tag: "( ins )", sintax: "veja a minha sintax", imagem: ins},
+    {id: 24, categoria: "media", texto: "Eu incorporo uma imagem a pagina", tag: "( img )", sintax: "veja a minha sintax", imagem: img},
+    {id: 25, categoria: "seletor", texto: "Eu seleciono o elemento html pelo seu id", tag: "( id )", sintax: "veja a minha sintax", imagem: id},
+    {id: 26, categoria: "texto", texto: "Eu deixo o texto em italico com um significado semantico, nome de navios, ternos tecnicos, paravras estrangeiras, etc", tag: "( i )", sintax: "veja a minha sintax", imagem: i},
+    {id: 27, categoria: "titulo", texto: "Eu difino subtilo no nivel 6 mais menor", tag: "( h6 )", sintax: "veja a minha sintax", imagem: h6},
+    {id: 28, categoria: "titulo", texto: "Eu difino subtilo no nivel 5 maior que 6", tag: "( h5 )", sintax: "veja a minha sintax", imagem: h5},
+    {id: 29, categoria: "titulo", texto: "Eu difino subtilo no nivel 4 maior que 5", tag: "( h4 )", sintax: "veja a minha sintax", imagem: h4},
+    {id: 30, categoria: "titulo", texto: "Eu difino subtilo no nivel 3 maior que 4", tag: "( h3 )", sintax: "veja a minha sintax", imagem: h3},
+    {id: 31, categoria: "titulo", texto: "Eu difino subtilo no nivel 2 maior que 3", tag: "( h2 )", sintax: "veja a minha sintax", imagem: h2},
+    {id: 32, categoria: "titulo", texto: "Eu difino subtilo no nivel 1 maior que 2, e sou o mais grande", tag: "( h1 )", sintax: "veja a minha sintax", imagem: h1},
+    {id: 33, categoria: "texto", texto: "Eu dou enfase ao texto", tag: "( hem )", sintax: "veja a minha sintax", imagem: em},
+    {id: 34, categoria: "lista", texto: "Eu crio listas de difinicao", tag: "( dl )", sintax: "veja a minha sintax", imagem: dlDtDd},
+    {id: 35, categoria: "texto", texto: "Eu indico un texto que foi removido que ja nao existe num documento", tag: "( del )", sintax: "veja a minha sintax", imagem: del},
+    {id: 36, categoria: "seletor", texto: "Eu seleciono o elemento html pela sua classe", tag: "( class )", sintax: "veja a minha sintax", imagem: Class},
+    {id: 37, categoria: "link", texto: "Eu crio links que ao ser clicado abre a pagina na mesma aba do navegador", tag: "( a )", sintax: "veja a minha sintax", imagem: aTargetSelf},
+    {id: 38, categoria: "link", texto: "Eu crio links que ao ser clicado abre a pagina na nova aba do navegador", tag: "( a )", sintax: "veja a minha sintax", imagem: aTargetBlanck},
+    {id: 39, categoria: "javascript", texto: "No arquivo html todo codigo javascript fica dentro de mim", tag: "( script )", sintax: "veja a minha sintax", imagem: scriptTag},
+    {id: 40, categoria: "javascript", texto: "Eu incorporo ou adiciono javascript externo", tag: "( script )", sintax: "veja a minha sintax", imagem: scriptExterno},
  ];
 
  export default sintaxOfHtml;
