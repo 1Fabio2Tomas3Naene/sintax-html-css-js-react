@@ -17,7 +17,7 @@ export default function Top(props){
             <nav className={styles.navList}>
                 <li className={styles.listItem}><Link href="/#idSintaxHtml" className={styles.listAnchor}>html</Link></li>
                 <li className={styles.listItem}><Link href="/#idSintaxCss" className={styles.listAnchor}>css</Link></li>
-                <li className={styles.listItem}><Link href="#" className={styles.listAnchor}>js</Link></li>
+                <li className={styles.listItem}><Link href="/#idSintaxJs" className={styles.listAnchor}>js</Link></li>
                 <li className={styles.listItem}><Link href="#" className={styles.listAnchor}>react</Link></li>
             </nav>
             <button onClick={props.onClickSetLightMode} className={styles.buttonSwitchMode}>{props.standardModeLightMode ? <span lang="en" className={styles.textMode}><RxSun className={styles.iconMode}/>light mode</span> : <span lang="en" className={styles.textMode}><IoMoonOutline className={styles.iconMode}/>dark mode</span>}</button>
