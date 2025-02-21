@@ -10,11 +10,11 @@ import span from "./image/span.svg";
 import small from "./image/small.svg";
 import p from "./image/p.svg";
 import olValue from "./image/ol-value.svg";
-import olTypeI from "./image/ol-type-I.svg";
-import olTypei from "./image/ol-type-i.svg";
-import olTypea from "./image/ol-type-a.svg";
-import olTypeA from "./image/ol-type-A.svg";
-import olType1 from "./image/ol-type-1.svg";
+import olTypeI01 from "./image/ol-type-I01.svg";
+import olTypei02 from "./image/ol-type-i02.svg";
+import olTypea03 from "./image/ol-type-a03.svg";
+import olTypeA04 from "./image/ol-type-A04.svg";
+import olType105 from "./image/ol-type-105.svg";
 import olStart from "./image/ol-start.svg";
 import olReversed from "./image/ol-reversed.svg";
 import metaTitle from "./image/meta-title.svg";
@@ -52,11 +52,11 @@ import scriptExterno from "./image/script-externo.svg";
     {id: 10, categoria: "texto", texto: "Eu deixo o texto fino ou pequeno", tag: "( small )", sintax: "veja a minha sintax", imagem: small},
     {id: 11, categoria: "texto", texto: "Eu difino paragrafo", tag: "( p )", sintax: "veja a minha sintax", imagem: p},
     {id: 12, categoria: "lista", texto: "Eu difino por que numero a ordenacao deve continuar", tag: "( value )", sintax: "veja a minha sintax", imagem: olValue},
-    {id: 13, categoria: "lista", texto: "Eu ordeno os itens da lista com letras romanos maiusculas", tag: "( type='I' )", sintax: "veja a minha sintax", imagem: olTypeI},
-    {id: 14, categoria: "lista", texto: "Eu ordeno os itens da lista com letras romanos minusculas", tag: "( type='i' )", sintax: "veja a minha sintax", imagem: olTypei},
-    {id: 15, categoria: "lista", texto: "Eu ordeno os itens da lista com letras latinas minusculas", tag: "( type='a' )", sintax: "veja a minha sintax", imagem: olTypea},
-    {id: 16, categoria: "lista", texto: "Eu ordeno os itens da lista com letras latinas maiusculas", tag: "( type='A' )", sintax: "veja a minha sintax", imagem: olTypeA},
-    {id: 17, categoria: "lista", texto: "Eu ordeno os itens da lista com numeros decimais", tag: "( type='1' )", sintax: "veja a minha sintax", imagem: olType1},
+    {id: 13, categoria: "lista", texto: "Eu ordeno os itens da lista com letras romanos maiusculas", tag: "( type='I' )", sintax: "veja a minha sintax", imagem: olTypeI01},
+    {id: 14, categoria: "lista", texto: "Eu ordeno os itens da lista com letras romanos minusculas", tag: "( type='i' )", sintax: "veja a minha sintax", imagem: olTypei02},
+    {id: 15, categoria: "lista", texto: "Eu ordeno os itens da lista com letras latinas minusculas", tag: "( type='a' )", sintax: "veja a minha sintax", imagem: olTypea03},
+    {id: 16, categoria: "lista", texto: "Eu ordeno os itens da lista com letras latinas maiusculas", tag: "( type='A' )", sintax: "veja a minha sintax", imagem: olTypeA04},
+    {id: 17, categoria: "lista", texto: "Eu ordeno os itens da lista com numeros decimais", tag: "( type='1' )", sintax: "veja a minha sintax", imagem: olType105},
     {id: 18, categoria: "lista", texto: "Eu difino por onde a ordenacao dos itens na lista deve comecar", tag: "( start )", sintax: "veja a minha sintax", imagem: olStart},
     {id: 19, categoria: "lista", texto: "Eu inverto a ordenacao dos itens da lista, isto e, de grande para pequeno", tag: "( reversed )", sintax: "veja a minha sintax", imagem: olReversed},
     {id: 20, categoria: "meta dados, tags de cabecalho", texto: "Eu difino o titulo da pagina que aparece na aba do navegador", tag: "( title )", sintax: "veja a minha sintax", imagem: metaTitle},
