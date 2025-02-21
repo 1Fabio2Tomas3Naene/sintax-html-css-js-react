@@ -51,7 +51,7 @@ export default function Home() {
         <section className={styles.sectionHtml} id="idSintaxHtml">
           <h2 className={styles.title}>Veja {sintaxHtmlLenght} sintaxes de html</h2>
           <div className={styles.fieldSearch}>
-            <FaSearch className={styles.iconSearchjs}/>
+            <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome da tag ou a categoria" value={typedWord} onChange={(Event) => HandleFilterByTypedWord(Event.target.value)} className={styles.input}/>
           </div>
           <div className={styles.containerCard}>
