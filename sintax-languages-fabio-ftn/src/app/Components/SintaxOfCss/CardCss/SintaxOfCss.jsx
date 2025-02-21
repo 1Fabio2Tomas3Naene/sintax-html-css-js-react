@@ -8,7 +8,7 @@ export default function CardCss(props) {
         <div className={styles.card}>
             <p className={styles.title}>{props.textoCss}<br></br>{props.valorCss}</p>
             <span className={styles.description}>{props.sintaxCss}<br></br><MdKeyboardDoubleArrowDown /></span>
-            <Image src={props.imagemCss} alt={props.textoCss} title={props.textoCss} className={styles.img}/>
+            <Image src={props.imagemCss} alt={props.valorCss} title={props.textoCss} className={styles.img}/>
         </div>
     )
 };

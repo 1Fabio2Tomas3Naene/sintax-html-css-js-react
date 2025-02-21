@@ -9,7 +9,7 @@ export default function CardHtml(props){
         <div className={styles.card}>
             <p className={styles.title}>{props.titulo} <br></br> {props.tag}</p>
             <span className={styles.description}>{props.descricao} <br></br><MdKeyboardDoubleArrowDown /></span>
-            <Image src={props.sintax} alt={props.titulo} title={props.titulo} className={styles.img}/>
+            <Image src={props.sintax} alt={props.tag} title={props.titulo} className={styles.img}/>
         </div>
     )
 };
