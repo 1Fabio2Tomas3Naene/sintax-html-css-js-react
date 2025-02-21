@@ -92,7 +92,7 @@ export default function Home() {
           }
          </div>
         </section>
-        <section className={styles.sectionHtml}>
+        <section className={styles.sectionHtml} id="idSintaxJs">
         <h3 className={styles.tituloJs}>Veja {sintaxesOfJsLenght} sintaxs de javascript</h3>
         <div className={styles.fieldSearchJs}>
             <FaSearch className={styles.iconSearch}/>
