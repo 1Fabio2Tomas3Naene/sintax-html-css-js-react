@@ -19,12 +19,17 @@
 .tituloNodeJs{
     color: #77b063;
 }
+/*sintax de git*/
+.tituloGit{
+    color: #d8705c;
+}
 /*setor de agrupamento*/
 .title,
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit{
     font-size: 40px;
     font-weight: bold;
 }
@@ -48,12 +53,17 @@
 .containerCardNodeJs{
     border: 3px solid #77b063;
 }
+/*sintax de git*/
+.containerCardGit{
+    border: 3px solid #d8705c;
+}
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 100%;
     height: 80vh;
     border-radius: 10px;
@@ -84,12 +94,17 @@
 .fieldSearchNodeJs{
     border: 3px solid #77b063;
 }
+/*sintax de git*/
+.fieldSearchGit{
+    border: 3px solid #d8705c;
+}
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
 .fieldSearchJs,
 .fieldSearchNextJs,
-.fieldSearchNodeJs{
+.fieldSearchNodeJs,
+.fieldSearchGit{
     width: 100%;
     height: 50px;
     border-radius: 10px;
@@ -121,6 +136,15 @@
     filter: invert(1) brightness(2);
 }
 .darkMode .fieldSearchJs .iconSearch{
+    filter: invert(1) brightness(2); 
+}
+.darkMode .fieldSearchNextJs .iconSearch{
+    filter: invert(1) brightness(2); 
+}
+.darkMode .fieldSearchNodeJs .iconSearch{
+    filter: invert(1) brightness(2); 
+}
+.darkMode .fieldSearchGit .iconSearch{
     filter: invert(1) brightness(2); 
 }
 /*Estilos da secao sintax de html*/
@@ -167,7 +191,8 @@
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit{
     font-size: 24px;
     text-align: center;
 }
@@ -176,7 +201,8 @@
 .fieldSearchCss,
 .fieldSearchJs,
 .fieldSearchNextJs,
-.fieldSearchNodeJs{
+.fieldSearchNodeJs,
+.fieldSearchGit{
     width: 95%;
     height: 40px;
     gap: 0;
@@ -205,7 +231,8 @@
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -231,6 +258,9 @@
 .fieldSearchNodeJs{
     display: none;
 }
+.fieldSearchGit{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE DE 481PX ATE 720PX*/
@@ -243,7 +273,9 @@
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit,
+.fieldSearchGit{
     font-size: 30px;
 }
 /*setor de agrupamento*/
@@ -280,7 +312,8 @@
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -306,6 +339,9 @@
 .fieldSearchNodeJs{
     display: none;
 }
+.fieldSearchGit{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE DE 721PX ATE 768PX*/
@@ -318,7 +354,8 @@
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit{
     font-size: 38px;
 }
 /*setor de agrupamento*/
@@ -326,7 +363,8 @@
 .fieldSearchCss,
 .fieldSearchJs,
 .fieldSearchNextJs,
-.fieldSearchNodeJs{
+.fieldSearchNodeJs,
+.fieldSearchGit{
     width: 95%;
     height: 50px;
     gap: 0;
@@ -355,7 +393,8 @@
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -381,6 +420,9 @@
 .fieldSearchNodeJs{
     display: none;
 }
+.fieldSearchGit{
+    display: none;
+}
 }
 
 
@@ -394,7 +436,8 @@
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit{
     font-size: 40px;
 }
 /*setor de agrupamento*/
@@ -402,7 +445,8 @@
 .fieldSearchCss,
 .fieldSearchJs,
 .fieldSearchNextJs,
-.fieldSearchNodeJs{
+.fieldSearchNodeJs,
+.fieldSearchGit{
     width: 95%;
     height: 50px;
     gap: 0;
@@ -431,7 +475,8 @@
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 95%;
     height: 75vh;
     border-radius: 5px;
@@ -457,6 +502,9 @@
 .fieldSearchNodeJs{
     display: none;
 }
+.fieldSearchGit{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE DE 901PX ATE 1024PX*/
@@ -469,7 +517,8 @@
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit{
     font-size: 44px;
 }
 /*setor de agrupamento*/
@@ -477,7 +526,8 @@
 .fieldSearchCss,
 .fieldSearchJs,
 .fieldSearchNextJs,
-.fieldSearchNodeJs{
+.fieldSearchNodeJs,
+.fieldSearchGit{
     width: 80%;
     height: 50px;
     gap: 0;
@@ -506,7 +556,8 @@
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 80%;
     height: 75vh;
     border-radius: 5px;
@@ -531,6 +582,9 @@
 .fieldSearchNodeJs{
     display: none;
 }
+.fieldSearchGit{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE min 1021*/
@@ -543,7 +597,8 @@
 .tituloCss,
 .tituloJs,
 .tituloNextJs,
-.tituloNodeJs{
+.tituloNodeJs,
+.tituloGit{
     font-size: 50px;
 }
 /*setor de agrupamento*/
@@ -551,7 +606,8 @@
 .fieldSearchCss,
 .fieldSearchJs,
 .fieldSearchNextJs,
-.fieldSearchNodeJs{
+.fieldSearchNodeJs,
+.fieldSearchGit{
     width: 80%;
     height: 50px;
     gap: 0;
@@ -580,7 +636,8 @@
 .containerCardCss,
 .containerCardJs,
 .containerCardNextJs,
-.containerCardNodeJs{
+.containerCardNodeJs,
+.containerCardGit{
     width: 80%;
     height: 75vh;
     border-radius: 5px;
@@ -603,6 +660,9 @@
     display: none;
 }
 .fieldSearchNodeJs{
+    display: none;
+}
+.fieldSearchGit{
     display: none;
 }
 }
