@@ -126,8 +126,9 @@
     font-size: 26px;
     color: #1f62af;
 }
-/*responsivo de < 319px  ate > 769px*/
-@media screen and (min-width: 319px) and (max-width: 768px){
+
+/*responsivo de  320px  ate  480px*/
+@media screen and (min-width: 320px) and (max-width: 480px){
     .main{
         gap: 30px;
     }
@@ -136,6 +137,7 @@
 .tituloCss,
 .tituloJs{
     font-size: 24px;
+    text-align: center;
 }
 /*setor de agrupamento*/
 .fieldSearch,
@@ -150,7 +152,7 @@
         width: 100%;
     }
     .input{
-        font-size: 13px;
+        font-size: 11px;
     }
     .iconSearch{
         width: 30px;
@@ -186,14 +188,307 @@
     font-size: 20px;
 }
 }
-/*responsivo de 479px  ate  768px*/
-@media screen and (min-width: 482px) and (max-width: 768px){
-    .title,
-    .tituloCss,
-    .tituloJs{
-    font-size: 36px;
+
+/*RESPONSIVIDADE DE 481PX ATE 720PX*/
+@media screen and (min-width: 481px) and (max-width: 720px){
+    .main{
+        gap: 40px;
+    }
+    /*setor de agrupamento*/
+.title,
+.tituloCss,
+.tituloJs{
+    font-size: 30px;
 }
-.input{
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss,
+.fieldSearchJs{
+    width: 95%;
+    height: 50px;
+    gap: 0;
+}
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+        width: 100%;
+    }
+    .input{
+        font-size: 20px;
+    }
+    .iconSearch{
+        width: 35px;
+        height: 35px;
+    }
+    /*sintax de html*/
+.containerCard{
+    border: 2px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 3px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss,
+.containerCardJs{
+    width: 95%;
+    height: 50vh;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+/*link para o codigo do projeto*/
+.buttonCodeLink{
+    width: 100%;
+    padding: 10px;
+}
+.codeLink{
     font-size: 20px;
+}
+}
+
+/*RESPONSIVIDADE DE 721PX ATE 768PX*/
+@media screen and (min-width: 721px) and (max-width: 768px){
+    .main{
+        gap: 50px;
+    }
+    /*setor de agrupamento*/
+.title,
+.tituloCss,
+.tituloJs{
+    font-size: 38px;
+}
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss,
+.fieldSearchJs{
+    width: 95%;
+    height: 50px;
+    gap: 0;
+}
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+        width: 100%;
+    }
+    .input{
+        font-size: 26px;
+    }
+    .iconSearch{
+        width: 40px;
+        height: 40px;
+    }
+    /*sintax de html*/
+.containerCard{
+    border: 4px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 4px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss,
+.containerCardJs{
+    width: 95%;
+    height: 50vh;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+/*link para o codigo do projeto*/
+.buttonCodeLink{
+    width: 100%;
+    padding: 10px;
+}
+.codeLink{
+    font-size: 30px;
+}
+}
+
+
+/*RESPONSIVIDADE DE 769PX ATE 900PX*/
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .main{
+        gap: 60px;
+    }
+    /*setor de agrupamento*/
+.title,
+.tituloCss,
+.tituloJs{
+    font-size: 40px;
+}
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss,
+.fieldSearchJs{
+    width: 95%;
+    height: 50px;
+    gap: 0;
+}
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+        width: 100%;
+    }
+    .input{
+        font-size: 26px;
+    }
+    .iconSearch{
+        width: 40px;
+        height: 40px;
+    }
+    /*sintax de html*/
+.containerCard{
+    border: 4px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 4px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss,
+.containerCardJs{
+    width: 95%;
+    height: 75vh;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+/*link para o codigo do projeto*/
+.buttonCodeLink{
+    width: 100%;
+    padding: 10px;
+}
+.codeLink{
+    font-size: 30px;
+}
+}
+
+/*RESPONSIVIDADE DE 901PX ATE 1024PX*/
+@media screen and (min-width: 901px) and (max-width: 1024px){
+    .main{
+        gap: 70px;
+    }
+    /*setor de agrupamento*/
+.title,
+.tituloCss,
+.tituloJs{
+    font-size: 44px;
+}
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss,
+.fieldSearchJs{
+    width: 80%;
+    height: 50px;
+    gap: 0;
+}
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+        width: 100%;
+    }
+    .input{
+        font-size: 26px;
+    }
+    .iconSearch{
+        width: 40px;
+        height: 40px;
+    }
+    /*sintax de html*/
+.containerCard{
+    border: 4px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 4px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss,
+.containerCardJs{
+    width: 80%;
+    height: 75vh;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+/*link para o codigo do projeto*/
+.buttonCodeLink{
+    width: 100%;
+    padding: 10px;
+}
+.codeLink{
+    font-size: 34px;
+}
+}
+
+/*RESPONSIVIDADE min 1021*/
+@media screen and (min-width: 1021px){
+    .main{
+        gap: 60px;
+    }
+    /*setor de agrupamento*/
+.title,
+.tituloCss,
+.tituloJs{
+    font-size: 50px;
+}
+/*setor de agrupamento*/
+.fieldSearch,
+.fieldSearchCss,
+.fieldSearchJs{
+    width: 80%;
+    height: 50px;
+    gap: 0;
+}
+/*Estilos da secao sintax de html*/
+.sectionHtml{
+        width: 100%;
+    }
+    .input{
+        font-size: 30px;
+    }
+    .iconSearch{
+        width: 40px;
+        height: 40px;
+    }
+    /*sintax de html*/
+.containerCard{
+    border: 4px solid  #e44d25;
+}
+/*sintax de css*/
+.containerCardCss{
+    border: 4px solid  #1f62af;
+}
+/*setor de agrupamento*/
+.containerCard,
+.containerCardCss,
+.containerCardJs{
+    width: 80%;
+    height: 75vh;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+/*link para o codigo do projeto*/
+.buttonCodeLink{
+    width: 100%;
+    padding: 10px;
+}
+.codeLink{
+    font-size: 34px;
 }
 }
