@@ -11,10 +11,15 @@
 .tituloJs{
     color: #e5a329;
 }
+/*sintax de next.js*/
+.tituloNextJs{
+    color: #000000;
+}
 /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 40px;
     font-weight: bold;
 }
@@ -30,10 +35,15 @@
 .containerCardJs{
     border: 3px solid #e5a329;
 }
+/*sintax de next.js*/
+.containerCardNextJs{
+    border: 3px solid black;
+}
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 100%;
     height: 80vh;
     border-radius: 10px;
@@ -56,10 +66,15 @@
 .fieldSearchJs{
     border: 3px solid #e5a329;
 }
+/*sintax de next.js*/
+.fieldSearchNextJs{
+    border: 3px solid black;
+}
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 100%;
     height: 50px;
     border-radius: 10px;
@@ -135,14 +150,16 @@
     /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 24px;
     text-align: center;
 }
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 95%;
     height: 40px;
     gap: 0;
@@ -169,7 +186,8 @@
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -187,6 +205,11 @@
 .codeLink{
     font-size: 20px;
 }
+
+/*escondendo campo de pesquisa por entanto*/
+.fieldSearchNextJs{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE DE 481PX ATE 720PX*/
@@ -197,13 +220,15 @@
     /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 30px;
 }
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 95%;
     height: 50px;
     gap: 0;
@@ -230,7 +255,8 @@
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -248,6 +274,11 @@
 .codeLink{
     font-size: 20px;
 }
+
+/*escondendo campo de pesquisa por entanto*/
+.fieldSearchNextJs{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE DE 721PX ATE 768PX*/
@@ -258,13 +289,15 @@
     /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 38px;
 }
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 95%;
     height: 50px;
     gap: 0;
@@ -291,7 +324,8 @@
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 95%;
     height: 50vh;
     border-radius: 5px;
@@ -309,6 +343,11 @@
 .codeLink{
     font-size: 30px;
 }
+
+/*escondendo campo de pesquisa por entanto*/
+.fieldSearchNextJs{
+    display: none;
+}
 }
 
 
@@ -320,13 +359,15 @@
     /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 40px;
 }
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 95%;
     height: 50px;
     gap: 0;
@@ -353,7 +394,8 @@
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 95%;
     height: 75vh;
     border-radius: 5px;
@@ -371,6 +413,11 @@
 .codeLink{
     font-size: 30px;
 }
+
+/*escondendo campo de pesquisa por entanto*/
+.fieldSearchNextJs{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE DE 901PX ATE 1024PX*/
@@ -381,13 +428,15 @@
     /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 44px;
 }
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 80%;
     height: 50px;
     gap: 0;
@@ -414,7 +463,8 @@
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 80%;
     height: 75vh;
     border-radius: 5px;
@@ -431,6 +481,11 @@
 .codeLink{
     font-size: 34px;
 }
+
+/*escondendo campo de pesquisa por entanto*/
+.fieldSearchNextJs{
+    display: none;
+}
 }
 
 /*RESPONSIVIDADE min 1021*/
@@ -441,13 +496,15 @@
     /*setor de agrupamento*/
 .title,
 .tituloCss,
-.tituloJs{
+.tituloJs,
+.tituloNextJs{
     font-size: 50px;
 }
 /*setor de agrupamento*/
 .fieldSearch,
 .fieldSearchCss,
-.fieldSearchJs{
+.fieldSearchJs,
+.fieldSearchNextJs{
     width: 80%;
     height: 50px;
     gap: 0;
@@ -474,7 +531,8 @@
 /*setor de agrupamento*/
 .containerCard,
 .containerCardCss,
-.containerCardJs{
+.containerCardJs,
+.containerCardNextJs{
     width: 80%;
     height: 75vh;
     border-radius: 5px;
@@ -490,5 +548,10 @@
 }
 .codeLink{
     font-size: 34px;
+}
+
+/*escondendo campo de pesquisa por entanto*/
+.fieldSearchNextJs{
+    display: none;
 }
 }
