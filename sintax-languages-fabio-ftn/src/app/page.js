@@ -1,5 +1,5 @@
 'use client';
-import React from "react";
+import React, { use } from "react";
 import { useState } from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
@@ -12,6 +12,8 @@ import CardCss from "./Components/SintaxOfCss/CardCss/SintaxOfCss";
 import { FaSearch } from "react-icons/fa";
 import { allSintaxesOfJs, filterByTypedWordJs } from "./Components/sintaxOfJs/functions";
 import CardOfJs from "./Components/sintaxOfJs/cardOfJs";
+import { allSintaxNextJs, filterByTypedWordNextJs } from "./Components/sintaxOfNextJs/sintaxFunctions";
+import CardNextJs from "./Components/sintaxOfNextJs/sintaxCards/cards";
 
 
 export default function Home() {
@@ -43,6 +45,14 @@ export default function Home() {
     setSintaxJs(filterByTypedWordJs(typedWordJs))
     setypedWordJs(typedWordJs)
   };
+
+  const [sintaxNextJs, setSintaxNextJs] = useState(allSintaxNextJs);
+  const [typedWordNextJs, setTypedWordNextJs] = useState("");
+  const sintaxNextJsLength = sintaxNextJs.length;
+  const HandleFilterByTypedWordNextJs = (typedWordNextJs) => {
+    setSintaxNextJs(filterByTypedWordNextJs(typedWordNextJs))
+    setTypedWordNextJs(typedWordNextJs)
+  };
   return (
     <div className={lightMode ? styles.darkMode : styles.lightMode}>
       <Top standardModeLightMode={lightMode} onClickSetLightMode={DarkMode}/>
@@ -71,7 +81,7 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxCss">
-        <h3 className={styles.tituloCss}>Veja {sintaxCssLenght} sintaxs de css</h3>
+        <h3 className={styles.tituloCss}>Veja {sintaxCssLenght} sintaxes de css</h3>
         <div className={styles.fieldSearchCss}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome da propriedade ou a categoria"  value={typedWordCss} onChange={(Event) => HandleFilterByTypedWordCss(Event.target.value)}  className={styles.input}/>
@@ -93,7 +103,7 @@ export default function Home() {
          </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxJs">
-        <h3 className={styles.tituloJs}>Veja {sintaxesOfJsLenght} sintaxs de javascript</h3>
+        <h3 className={styles.tituloJs}>Veja {sintaxesOfJsLenght} sintaxes de javascript</h3>
         <div className={styles.fieldSearchJs}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o nome do comando ou a categoria"  value={typedWordJs} onChange={(Event) => HandleFilterByTypedWordJs(Event.target.value)}  className={styles.input}/>
@@ -114,9 +124,27 @@ export default function Home() {
          }
          </div>
         </section>
-        <aside>
+        <section className={styles.sectionHtml} id="idSintaxJs">
+        <h3 className={styles.tituloNextJs}>Veja {sintaxNextJsLength} sintaxs de Next.js</h3>
+        <div className={styles.fieldSearchNextJs}>
+            <FaSearch className={styles.iconSearch}/>
+            <input type="text" placeholder="Digite aqui o que esta procurando" value={typedWordNextJs} onChange={(Event) => HandleFilterByTypedWordNextJs(Event.target.value)}  className={styles.input}/>
+          </div>
+         <div className={styles.containerCardNextJs}>
+          {
+            sintaxNextJs.map((sintaxNextJsItems) => {
+              return(
+                <CardNextJs
+                />
+              )
+            }
+            )
+          }
+         </div>
+        </section>
+        <address>
           <button className={styles.buttonCodeLink}><Link href="https://github.com/1Fabio2Tomas3Naene/sintax-html-css-js-react" target="_blanck" rel="noopener noreferrer" className={styles.codeLink}>Veja o código do projeto</Link></button>
-        </aside>
+        </address>
       </main>
     </div>
   );
