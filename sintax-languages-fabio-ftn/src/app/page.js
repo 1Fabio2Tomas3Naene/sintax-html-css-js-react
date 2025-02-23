@@ -14,6 +14,8 @@ import { allSintaxesOfJs, filterByTypedWordJs } from "./Components/sintaxOfJs/fu
 import CardOfJs from "./Components/sintaxOfJs/cardOfJs";
 import { allSintaxNextJs, filterByTypedWordNextJs } from "./Components/sintaxOfNextJs/sintaxFunctions";
 import CardNextJs from "./Components/sintaxOfNextJs/sintaxCards/cards";
+import CardNodeJs from "./Components/sintaxOfNodeJs/sintaxCards/cards";
+import { allSintaxNodeJs, filterByTypedWordNodeJs } from "./Components/sintaxOfNodeJs/sintaxFunctions";
 
 
 export default function Home() {
@@ -52,6 +54,14 @@ export default function Home() {
   const HandleFilterByTypedWordNextJs = (typedWordNextJs) => {
     setSintaxNextJs(filterByTypedWordNextJs(typedWordNextJs))
     setTypedWordNextJs(typedWordNextJs)
+  };
+
+  const [sintaxNodeJs, setSintaxNodeJs] = useState(allSintaxNodeJs);
+  const [typedWordNodeJs, setTypedWordNodeJs] = useState("");
+  const sintaxNodeJsLength = sintaxNodeJs.length;
+  const HandleFilterByTypedWordNodeJs = (typedWordNodeJs) => {
+    setSintaxNodeJs(filterByTypedWordNodeJs(typedWordNodeJs))
+    setTypedWordNodeJs(typedWordNodeJs)
   };
   return (
     <div className={lightMode ? styles.darkMode : styles.lightMode}>
@@ -139,6 +149,24 @@ export default function Home() {
               )
             }
             )
+          }
+         </div>
+        </section>
+        <section className={styles.sectionHtml} id="idSintaxJs">
+        <h3 className={styles.tituloNodeJs}>Veja {sintaxNodeJsLength} sintaxs de Node.js</h3>
+        <div className={styles.fieldSearchNodeJs}>
+            <FaSearch className={styles.iconSearch}/>
+            <input type="text" placeholder="Digite aqui nome do comando" value={typedWordNodeJs} onChange={(Event) => HandleFilterByTypedWordNodeJs(Event.target.value)}   className={styles.input}/>
+          </div>
+         <div className={styles.containerCardNodeJs}>
+          {
+           sintaxNodeJs.map((sintaxNodeJsItems) => {
+            return(
+              <CardNodeJs
+              />
+            )
+          }
+          )
           }
          </div>
         </section>
