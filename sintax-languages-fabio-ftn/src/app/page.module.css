@@ -1,3 +1,18 @@
+/*llink de seta para cima*/
+#arrawTopLink{
+    position: absolute;
+    left: 1600px;
+    bottom: 100px;
+    color: #e44d25;
+}
+#arrowTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+}
+.containerArrow{
+   
+}
 /*inicio estilos compartilhaveis*/
 /*sintax de html*/
 .title{
@@ -115,6 +130,7 @@
 /*fim estilos compartilhaveis*/
 
 .main{
+    position: relative;
     padding-bottom: 50px;
     width: 100%;
     gap: 100px;
@@ -247,6 +263,13 @@
     width: 100%;
     padding: 10px;
 }
+#arrawTopLink{
+    left: 280px;
+}
+#arrowTop{
+    width: 25px;
+    height: 25px;
+}
 .codeLink{
     font-size: 20px;
 }
@@ -331,7 +354,13 @@
 .codeLink{
     font-size: 20px;
 }
-
+#arrawTopLink{
+    left: 450px;
+}
+#arrowTop{
+    width: 25px;
+    height: 25px;
+}
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
     display: none;
@@ -412,7 +441,13 @@
 .codeLink{
     font-size: 30px;
 }
-
+#arrawTopLink{
+    left: 700px;
+}
+#arrowTop{
+    width: 25px;
+    height: 25px;
+}
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
     display: none;
@@ -494,7 +529,13 @@
 .codeLink{
     font-size: 30px;
 }
-
+#arrawTopLink{
+    left: 740px;
+}
+#arrowTop{
+    width: 30px;
+    height: 30px;
+}
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
     display: none;
@@ -574,7 +615,13 @@
 .codeLink{
     font-size: 34px;
 }
-
+#arrawTopLink{
+    left: 860px;
+}
+#arrowTop{
+    width: 30px;
+    height: 30px;
+}
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
     display: none;
@@ -654,7 +701,13 @@
 .codeLink{
     font-size: 34px;
 }
-
+#arrawTopLink{
+    left: 1020px;
+}
+#arrowTop{
+    width: 40px;
+    height: 40px;
+}
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
     display: none;

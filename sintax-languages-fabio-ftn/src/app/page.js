@@ -18,6 +18,7 @@ import CardNodeJs from "./Components/sintaxOfNodeJs/sintaxCards/cards";
 import { allSintaxNodeJs, filterByTypedWordNodeJs } from "./Components/sintaxOfNodeJs/sintaxFunctions";
 import { allSintaxGit, filterByTypedWordGit } from "./Components/sintaxOfGit/sintaxFunctions";
 import CardGit from "./Components/sintaxOfGit/sintaxCards/cards";
+import { FaArrowUp } from "react-icons/fa";
 
 
 export default function Home() {
@@ -145,7 +146,7 @@ export default function Home() {
          }
          </div>
         </section>
-        <section className={styles.sectionHtml} id="idSintaxJs">
+        <section className={styles.sectionHtml} id="idSintaxNextJs">
         <h3 className={styles.tituloNextJs}>Veja {sintaxNextJsLength} sintaxes de Next.js</h3>
         <div className={styles.fieldSearchNextJs}>
             <FaSearch className={styles.iconSearch}/>
@@ -163,7 +164,7 @@ export default function Home() {
           }
          </div>
         </section>
-        <section className={styles.sectionHtml} id="idSintaxJs">
+        <section className={styles.sectionHtml} id="idSintaxNodeJs">
         <h3 className={styles.tituloNodeJs}>Veja {sintaxNodeJsLength} sintaxes de Node.js</h3>
         <div className={styles.fieldSearchNodeJs}>
             <FaSearch className={styles.iconSearch}/>
@@ -181,7 +182,7 @@ export default function Home() {
           }
          </div>
         </section>
-        <section className={styles.sectionHtml} id="idSintaxJs">
+        <section className={styles.sectionHtml} id="idSintaxGit">
         <h3 className={styles.tituloGit}>Veja {sintaxGitLength} sintaxes de git</h3>
         <div className={styles.fieldSearchGit}>
             <FaSearch className={styles.iconSearch}/>
@@ -203,6 +204,7 @@ export default function Home() {
           <button className={styles.buttonCodeLink}><Link href="https://github.com/1Fabio2Tomas3Naene/sintax-html-css-js-react" target="_blanck" rel="noopener noreferrer" className={styles.codeLink}>Veja o código do projeto</Link></button>
         </address>
       </main>
+      <div className={styles.containerArrow}><Link href="#idSectionTopLinks" id={styles.arrawTopLink}><FaArrowUp  id={styles.arrowTop}/></Link></div>
     </div>
   );
 }
