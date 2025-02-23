@@ -16,6 +16,8 @@ import { allSintaxNextJs, filterByTypedWordNextJs } from "./Components/sintaxOfN
 import CardNextJs from "./Components/sintaxOfNextJs/sintaxCards/cards";
 import CardNodeJs from "./Components/sintaxOfNodeJs/sintaxCards/cards";
 import { allSintaxNodeJs, filterByTypedWordNodeJs } from "./Components/sintaxOfNodeJs/sintaxFunctions";
+import { allSintaxGit, filterByTypedWordGit } from "./Components/sintaxOfGit/sintaxFunctions";
+import CardGit from "./Components/sintaxOfGit/sintaxCards/cards";
 
 
 export default function Home() {
@@ -62,6 +64,15 @@ export default function Home() {
   const HandleFilterByTypedWordNodeJs = (typedWordNodeJs) => {
     setSintaxNodeJs(filterByTypedWordNodeJs(typedWordNodeJs))
     setTypedWordNodeJs(typedWordNodeJs)
+  };
+
+
+  const [sintaxGit, setSintaxGit] = useState(allSintaxGit);
+  const [typedWordGit, setTypedWordGit] = useState("");
+  const sintaxGitLength = sintaxGit.length;
+  const HandleFilterByTypedWordGit = (typedWordGit) => {
+    setSintaxGit(filterByTypedWordGit(typedWordGit))
+    setTypedWordGit(typedWordGit)
   };
   return (
     <div className={lightMode ? styles.darkMode : styles.lightMode}>
@@ -135,7 +146,7 @@ export default function Home() {
          </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxJs">
-        <h3 className={styles.tituloNextJs}>Veja {sintaxNextJsLength} sintaxs de Next.js</h3>
+        <h3 className={styles.tituloNextJs}>Veja {sintaxNextJsLength} sintaxes de Next.js</h3>
         <div className={styles.fieldSearchNextJs}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui o que esta procurando" value={typedWordNextJs} onChange={(Event) => HandleFilterByTypedWordNextJs(Event.target.value)}  className={styles.input}/>
@@ -153,7 +164,7 @@ export default function Home() {
          </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxJs">
-        <h3 className={styles.tituloNodeJs}>Veja {sintaxNodeJsLength} sintaxs de Node.js</h3>
+        <h3 className={styles.tituloNodeJs}>Veja {sintaxNodeJsLength} sintaxes de Node.js</h3>
         <div className={styles.fieldSearchNodeJs}>
             <FaSearch className={styles.iconSearch}/>
             <input type="text" placeholder="Digite aqui nome do comando" value={typedWordNodeJs} onChange={(Event) => HandleFilterByTypedWordNodeJs(Event.target.value)}   className={styles.input}/>
@@ -163,6 +174,24 @@ export default function Home() {
            sintaxNodeJs.map((sintaxNodeJsItems) => {
             return(
               <CardNodeJs
+              />
+            )
+          }
+          )
+          }
+         </div>
+        </section>
+        <section className={styles.sectionHtml} id="idSintaxJs">
+        <h3 className={styles.tituloGit}>Veja {sintaxGitLength} sintaxes de git</h3>
+        <div className={styles.fieldSearchGit}>
+            <FaSearch className={styles.iconSearch}/>
+            <input type="text" placeholder="Digite aqui nome do comando" value={typedWordGit} onChange={(Event) => HandleFilterByTypedWordGit(Event.target.value)}  className={styles.input}/>
+          </div>
+         <div className={styles.containerCardGit}>
+          {
+          sintaxGit.map((sintaxGitItems) => {
+            return(
+              <CardGit
               />
             )
           }
