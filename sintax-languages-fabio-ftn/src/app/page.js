@@ -183,10 +183,10 @@ export default function Home() {
          </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxGit">
-        <h3 className={styles.tituloGit}>Veja {sintaxGitLength} sintaxes de git</h3>
+        <h3 className={styles.tituloGit}>Veja {sintaxGitLength} sintaxes de git <br></br>(linux)</h3>
         <div className={styles.fieldSearchGit}>
             <FaSearch className={styles.iconSearch}/>
-            <input type="text" placeholder="Digite aqui nome do comando" value={typedWordGit} onChange={(Event) => HandleFilterByTypedWordGit(Event.target.value)}  className={styles.input}/>
+            <input type="text" placeholder="Digite aqui o que esta procurando sobre git" value={typedWordGit} onChange={(Event) => HandleFilterByTypedWordGit(Event.target.value)}  className={styles.input}/>
           </div>
          <div className={styles.containerCardGit}>
           {
