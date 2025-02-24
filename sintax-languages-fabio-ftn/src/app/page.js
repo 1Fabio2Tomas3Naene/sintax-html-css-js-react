@@ -193,6 +193,11 @@ export default function Home() {
           sintaxGit.map((sintaxGitItems) => {
             return(
               <CardGit
+              key = {sintaxGitItems.id}
+              difinitionGit = {sintaxGitItems.texto}
+              lookSintaxGit = {sintaxGitItems.sintax}
+              imageSintaxGit = {sintaxGitItems.imagem}
+              categGit = {sintaxGitItems.categoria}
               />
             )
           }
