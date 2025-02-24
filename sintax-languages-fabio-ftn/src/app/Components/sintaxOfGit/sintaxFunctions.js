@@ -5,5 +5,8 @@ export const allSintaxGit = () => {
 };
 
 export const filterByTypedWordGit = (typedWordGit) => {
-
+    return sintaxGitArray.filter((sintaxGitSintaxes) =>
+        sintaxGitSintaxes.categoria.toLowerCase().includes(typedWordGit.toLowerCase()) ||
+        sintaxGitSintaxes.texto.toLowerCase().includes(typedWordGit.toLowerCase())
+    )
 };
