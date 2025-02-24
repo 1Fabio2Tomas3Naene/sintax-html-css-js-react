@@ -36,7 +36,6 @@
 }
 /*sintax de git*/
 .tituloGit{
-    text-align: center;
     color: #d8705c;
 }
 /*setor de agrupamento*/
@@ -48,6 +47,7 @@
 .tituloGit{
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 /*sintax de html*/
@@ -279,9 +279,6 @@
 .fieldSearchNextJs{
     display: none;
 }
-.fieldSearchNodeJs{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE DE 481PX ATE 720PX*/
@@ -363,9 +360,6 @@
 .fieldSearchNextJs{
     display: none;
 }
-.fieldSearchNodeJs{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE DE 721PX ATE 768PX*/
@@ -445,9 +439,6 @@
 }
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
-    display: none;
-}
-.fieldSearchNodeJs{
     display: none;
 }
 }
@@ -532,9 +523,6 @@
 .fieldSearchNextJs{
     display: none;
 }
-.fieldSearchNodeJs{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE DE 901PX ATE 1024PX*/
@@ -615,9 +603,6 @@
 .fieldSearchNextJs{
     display: none;
 }
-.fieldSearchNodeJs{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE min 1021*/
@@ -696,9 +681,6 @@
 }
 /*escondendo campo de pesquisa por entanto*/
 .fieldSearchNextJs{
-    display: none;
-}
-.fieldSearchNodeJs{
     display: none;
 }
 }
