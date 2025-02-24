@@ -281,9 +281,6 @@
 .fieldSearchNodeJs{
     display: none;
 }
-.fieldSearchGit{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE DE 481PX ATE 720PX*/
@@ -368,9 +365,6 @@
 .fieldSearchNodeJs{
     display: none;
 }
-.fieldSearchGit{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE DE 721PX ATE 768PX*/
@@ -453,9 +447,6 @@
     display: none;
 }
 .fieldSearchNodeJs{
-    display: none;
-}
-.fieldSearchGit{
     display: none;
 }
 }
@@ -543,9 +534,6 @@
 .fieldSearchNodeJs{
     display: none;
 }
-.fieldSearchGit{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE DE 901PX ATE 1024PX*/
@@ -629,9 +617,6 @@
 .fieldSearchNodeJs{
     display: none;
 }
-.fieldSearchGit{
-    display: none;
-}
 }
 
 /*RESPONSIVIDADE min 1021*/
@@ -713,9 +698,6 @@
     display: none;
 }
 .fieldSearchNodeJs{
-    display: none;
-}
-.fieldSearchGit{
     display: none;
 }
 }
