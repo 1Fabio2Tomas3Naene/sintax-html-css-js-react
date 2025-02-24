@@ -165,16 +165,21 @@ export default function Home() {
          </div>
         </section>
         <section className={styles.sectionHtml} id="idSintaxNodeJs">
-        <h3 className={styles.tituloNodeJs}>Veja {sintaxNodeJsLength} sintaxes de Node.js</h3>
+        <h3 className={styles.tituloNodeJs}>Veja {sintaxNodeJsLength} sintaxes de Node.js<br></br>(linux)</h3>
         <div className={styles.fieldSearchNodeJs}>
             <FaSearch className={styles.iconSearch}/>
-            <input type="text" placeholder="Digite aqui nome do comando" value={typedWordNodeJs} onChange={(Event) => HandleFilterByTypedWordNodeJs(Event.target.value)}   className={styles.input}/>
+            <input type="text" placeholder="Digite aqui o que esta procurando sobre node" value={typedWordNodeJs} onChange={(Event) => HandleFilterByTypedWordNodeJs(Event.target.value)}   className={styles.input}/>
           </div>
          <div className={styles.containerCardNodeJs}>
           {
            sintaxNodeJs.map((sintaxNodeJsItems) => {
             return(
               <CardNodeJs
+              key = {sintaxNodeJsItems.id}
+              difinitionNodeJs = {sintaxNodeJsItems.texto}
+              lookSintaxNodeJs = {sintaxNodeJsItems.sintax}
+              sintaxNodeJsImage = {sintaxNodeJsItems.imagem}
+              categNodeJs = {sintaxNodeJsItems.categoria}
               />
             )
           }
