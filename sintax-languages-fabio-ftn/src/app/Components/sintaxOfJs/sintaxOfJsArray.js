@@ -43,6 +43,13 @@ import trueV from "./assets/trueV.svg";
 import calculationAdditionNumber from "./assets/calculationAdditionNumber.svg";
 import encadeamentoAtribucoes1 from "./assets/encadeamentoAtribucoes1.svg";
 import encadeamentoAtribucoes2 from "./assets/encadeamentoAtribucoes2.svg";
+import bigInt from "./assets/bigInt.svg";
+import string1 from "./assets/string1.svg";
+import string2 from "./assets/string2.svg";
+import string3 from "./assets/string3.svg";
+import tipoNull from "./assets/tipoNull.svg";
+import tipoUndefined from "./assets/tipoUndefined.svg";
+import tiposDados from "./assets/tiposDados.svg";
 
 
 export const sintaxesOfJs = [
@@ -91,4 +98,11 @@ export const sintaxesOfJs = [
     {id: 43, categoria: "operadores aritmeticos operador aritmetico math number numeros", texto: "Aqui eu converto a string que tem valor numerico para number", comando: "( + )", sintax: "veja a minha sintax", imagem: calculationAdditionNumber},
     {id: 44, categoria: "operadores aritmeticos operador aritmetico math number numeros encadeamento de atribuicoes", texto: "Eu sou a tecnica de encadeamento de atribuicoes", comando: "( let calc1, calc2, calc3; )", sintax: "veja a minha sintax", imagem: encadeamentoAtribucoes1},
     {id: 45, categoria: "operadores aritmeticos operador aritmetico math number numeros encadeamento de atribuicoes", texto: "Eu sou a tecnica de encadeamento de atribuicoes", comando: "( let calc1, calc2, calc3; )", sintax: "veja a minha sintax", imagem: encadeamentoAtribucoes2},
+    {id: 46, categoria: "operadores aritmeticos operador aritmetico math number numeros encadeamento de atribuicoes", texto: "Eu trato de numeros extragrandes, para que que eles possem ser tratados como os queremos", comando: "( bigInt )", sintax: "veja a minha sintax", imagem: bigInt},
+    {id: 47, categoria: "string dados", texto: "string deve ser colocada entre aspas, eu coloco em aspas duplas", comando: '( " " )', sintax: "veja a minha sintax", imagem: string1},
+    {id: 48, categoria: "string dados", texto: "string deve ser colocada entre aspas, eu coloco em aspas simples", comando: "( ' ' )", sintax: "veja a minha sintax", imagem: string2},
+    {id: 49, categoria: "string dados", texto: "string deve ser colocada entre aspas, eu coloco em crasses ou tamplate string, eu posso conten variaveis calculos e coisas assim", comando: "( ` ` )", sintax: "veja a minha sintax", imagem: string3},
+    {id: 50, categoria: "tipo numm", texto: "Eu sou uma palavra reservada que indico nada, vazio ou algo descolhecido", comando: "( null )", sintax: "veja a minha sintax", imagem: tipoNull},
+    {id: 51, categoria: "tipo undefined", texto: "Eu sou uma palavra reservada que indico que uma variavel o algo nao foi difinida quando tentado usar", comando: "( undefined )", sintax: "veja a minha sintax", imagem: tipoUndefined},
+    {id: 52, categoria: "tipos de dados", texto: "Estes sao os tipos de dados que existem em javascript", comando: "( undefined )", sintax: "veja a minha sintax", imagem: tiposDados},
 ];
