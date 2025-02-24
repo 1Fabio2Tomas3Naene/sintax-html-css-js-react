@@ -10,9 +10,9 @@
     height: 50px;
     position: fixed;
 }
-.containerArrow{
+/*.containerArrow{
    
-}
+}*/
 /*inicio estilos compartilhaveis*/
 /*sintax de html*/
 .title{
@@ -36,6 +36,7 @@
 }
 /*sintax de git*/
 .tituloGit{
+    text-align: center;
     color: #d8705c;
 }
 /*setor de agrupamento*/
