@@ -50,6 +50,39 @@ import string3 from "./assets/string3.svg";
 import tipoNull from "./assets/tipoNull.svg";
 import tipoUndefined from "./assets/tipoUndefined.svg";
 import tiposDados from "./assets/tiposDados.svg";
+import contatenacaoAdd from "./assets/contatenacaoAdd.svg";
+import lineBreak from "./assets/lineBreak.svg";
+import displayingJsCode from "./assets/displayingJsCode.svg";
+import converToStringString2 from "./assets/convertToString2.svg";
+import propertyLenght from "./assets/propertyLenght.svg";
+import methodCharAt from "./assets/methodCharAt.svg";
+import methodCharCodeAt from "./assets/methodCharCodeAt.svg";
+import methodAt from "./assets/methodAt.svg";
+import methodAccess from "./assets/methodAccess.svg";
+import methodSlice from "./assets/methodSlice.svg";
+import methodSlice2 from "./assets/methodSlice2.svg";
+import methodSlice3 from "./assets/methodSlice3.svg";
+import methodSlice4 from "./assets/methodSlice4.svg";
+import methodSubString from "./assets/methodSubString.svg";
+import methodSubString2 from "./assets/methodSubString2.svg";
+import methodSubStr from "./assets/methodSubStr.svg";
+import methodSubStr2 from "./assets/methodSubStr1.svg";
+import methodSubStr3 from "./assets/methodSubStr2.svg";
+import lowerToUpper from "./assets/lowerToUpper.svg";
+import upperToLower from "./assets/upperToLower.svg";
+import methodConcat from "./assets/methodConcat.svg";
+import methodTrim from "./assets/methodTrim.svg";
+import methodTrim2 from "./assets/methodTrim2.svg";
+import methodTrim3 from "./assets/methodTrim3.svg";
+import methodToString6 from "./assets/methodToString6.svg";
+import methodPadStart from "./assets/methodPadStart.svg";
+import methodPadEnd from "./assets/methodPadEnd.svg";
+import methodRepeat from "./assets/methodRepeat.svg";
+import methodReplace from "./assets/methodReplace.svg";
+import methodReplacei from "./assets/methodReplacei.svg";
+import methodReplaceg from "./assets/methodReplaceg.svg";
+import methodReplaceAll from "./assets/methodReplaceAll.svg";
+import methodSplit from "./assets/methodSplit.svg";
 
 
 export const sintaxesOfJs = [
@@ -101,8 +134,42 @@ export const sintaxesOfJs = [
     {id: 46, categoria: "operadores aritmeticos operador aritmetico math number numeros encadeamento de atribuicoes", texto: "Eu trato de numeros extragrandes, para que que eles possem ser tratados como os queremos", comando: "( bigInt )", sintax: "veja a minha sintax", imagem: bigInt},
     {id: 47, categoria: "string dados", texto: "string deve ser colocada entre aspas, eu coloco em aspas duplas", comando: '( " " )', sintax: "veja a minha sintax", imagem: string1},
     {id: 48, categoria: "string dados", texto: "string deve ser colocada entre aspas, eu coloco em aspas simples", comando: "( ' ' )", sintax: "veja a minha sintax", imagem: string2},
-    {id: 49, categoria: "string dados", texto: "string deve ser colocada entre aspas, eu coloco em crasses ou tamplate string, eu posso conten variaveis calculos e coisas assim", comando: "( ` ` )", sintax: "veja a minha sintax", imagem: string3},
+    {id: 49, categoria: "string dados concatenacao", texto: "string deve ser colocada entre aspas, eu coloco em crasses ou tamplate string, eu posso conten variaveis, concatenacao, calculos e coisas assim", comando: "( ` ` )", sintax: "veja a minha sintax", imagem: string3},
     {id: 50, categoria: "tipo numm", texto: "Eu sou uma palavra reservada que indico nada, vazio ou algo descolhecido", comando: "( null )", sintax: "veja a minha sintax", imagem: tipoNull},
     {id: 51, categoria: "tipo undefined", texto: "Eu sou uma palavra reservada que indico que uma variavel o algo nao foi difinida quando tentado usar", comando: "( undefined )", sintax: "veja a minha sintax", imagem: tipoUndefined},
     {id: 52, categoria: "tipos de dados", texto: "Estes sao os tipos de dados que existem em javascript", comando: "( undefined )", sintax: "veja a minha sintax", imagem: tiposDados},
+    {id: 53, categoria: "string concatenacao", texto: "Aqui eu sou usado para concatenar ou unir strings, isto e, pedacos de textos", comando: "( + )", sintax: "veja a minha sintax", imagem: contatenacaoAdd},
+    {id: 54, categoria: "string concatenacao", texto: "Eu permito ou faco a quebra de linha", comando: "( \\n )", sintax: "veja a minha sintax", imagem: lineBreak},
+    {id: 55, categoria: "string ", texto: "Eu faco com que caracteres sejam considerados como texto nao como parte do codigo", comando: "( \\ )", sintax: "veja a minha sintax", imagem: displayingJsCode},
+    {id: 56, categoria: "string ", texto: "Eu converto qualquer tipo de dado em uma string", comando: "( String() )", sintax: "veja a minha sintax", imagem: converToStringString2},
+    {id: 57, categoria: "propriedades metodos string", texto: "Eu conto quantos sao ou mostro o comprimento ou a quantidade, queira uma string de uma varivel, queira objetos de um array, eu conto quantos sao", comando: "( .lenght )", sintax: "veja a minha sintax", imagem: propertyLenght},
+    {id: 58, categoria: "propriedades metodos string caracteres de uma string", texto: "Eu retorno um caractere de uma string no indice especificado, mas sou antigo mas ainda funciono, mas tambem nao uso indices negativos e indices fora do limite retorno \" \" uma string vazia ", comando: "( .charAt() )", sintax: "veja a minha sintax", imagem: methodCharAt},
+    {id: 59, categoria: "propriedades metodos string caracteres de uma string", texto: "Todos caracteres tem seus codigos, entao, eu retorno o codigo do caractere de uma string no indice especificado", comando: "( .charCodeAt() )", sintax: "veja a minha sintax", imagem: methodCharCodeAt},
+    {id: 60, categoria: "propriedades metodos string caracteres de uma string", texto: "Eu retorno um caractere de uma string no indice especificado, e sou moderno e tambem uso indices negativos e indices fora do limite retorno undefined", comando: "( .at() )", sintax: "veja a minha sintax", imagem: methodAt},
+    {id: 61, categoria: "propriedades metodos string caracteres de uma string", texto: "Eu retorno um caractere de uma string no indice especificado, mas faco os caracteres parecerem arrays enquanto nao sao e indices fora do limite retorno undefined", comando: "( [] )", sintax: "veja a minha sintax", imagem: methodAccess},
+    {id: 62, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel", comando: "( .slice() )", sintax: "veja a minha sintax", imagem: methodSlice},
+    {id: 63, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel", comando: "( .slice() )", sintax: "veja a minha sintax", imagem: methodSlice2},
+    {id: 64, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel", comando: "( .slice() )", sintax: "veja a minha sintax", imagem: methodSlice3},
+    {id: 65, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel", comando: "( .slice() )", sintax: "veja a minha sintax", imagem: methodSlice4},
+    {id: 66, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel, mas nao aceito indices negativos", comando: "( .subString() )", sintax: "veja a minha sintax", imagem: methodSubString},
+    {id: 67, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel, mas nao aceito indices negativos", comando: "( .subString() )", sintax: "veja a minha sintax", imagem: methodSubString2},
+    {id: 68, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel, o segundo valor indica quantos caracteres quer estrair partindo do primeito valor e nao deve ser negativo", comando: "( .subStr() )", sintax: "veja a minha sintax", imagem: methodSubStr},
+    {id: 69, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel", comando: "( .subStr() )", sintax: "veja a minha sintax", imagem: methodSubStr2},
+    {id: 70, categoria: "propriedades metodos string partes de uma string", texto: "Eu retorno ou extraio parte de uma string formando uma nova frase ou palavra ou um novo valor de uma variavel", comando: "( .subStr() )", sintax: "veja a minha sintax", imagem: methodSubStr3},
+    {id: 71, categoria: "propriedades metodos string convertendo texto para maiuscula e minucula", texto: "Eu converto letras minusculas para maiusculas", comando: "( .toUpperCase() )", sintax: "veja a minha sintax", imagem: lowerToUpper},
+    {id: 72, categoria: "propriedades metodos string convertendo texto para maiuscula e minucula", texto: "Eu converto letras maiusculas para minusculas", comando: "( .toLowerCase() )", sintax: "veja a minha sintax", imagem: upperToLower},
+    {id: 73, categoria: "propriedades metodos string", texto: "Eu concateno as strings", comando: "( .concat() )", sintax: "veja a minha sintax", imagem: methodConcat},
+    {id: 74, categoria: "propriedades metodos string", texto: "Eu removo todos espacos, obviamente das laterais do texto", comando: "( .trim() )", sintax: "veja a minha sintax", imagem: methodTrim},
+    {id: 75, categoria: "propriedades metodos string", texto: "Eu removo todos espacos do inicio de um texto", comando: "( .trimStart() )", sintax: "veja a minha sintax", imagem: methodTrim2},
+    {id: 76, categoria: "propriedades metodos string", texto: "Eu removo todos espacos do fim de um texto", comando: "( .trimStart() )", sintax: "veja a minha sintax", imagem: methodTrim3},
+    {id: 77, categoria: "string ", texto: "neste contexto eu converto qualquer tipo de dado em uma string", comando: "( .toString() )", sintax: "veja a minha sintax", imagem: methodToString6},
+    {id: 78, categoria: "string ", texto: "Eu preencho o inicio de uma string com o tipo de caractere especificado", comando: "( .padStart() )", sintax: "veja a minha sintax", imagem: methodPadStart},
+    {id: 79, categoria: "string ", texto: "Eu preencho o fim de uma string com o tipo de caractere especificado", comando: "( .padEnd() )", sintax: "veja a minha sintax", imagem: methodPadEnd},
+    {id: 80, categoria: "string ", texto: "Eu faco copias ou repito o valor de uma variavel algo assim na quantidade do numero especificado", comando: "( .repeat() )", sintax: "veja a minha sintax", imagem: methodRepeat},
+    {id: 81, categoria: "string ", texto: "Eu substituo a primeira ocorrencia da palavra pela palavra especificada", comando: "( .replace() )", sintax: "veja a minha sintax", imagem: methodReplace},
+    {id: 82, categoria: "string ", texto: "Eu substituo a primeira ocorrencia da palavra pela palavra especificada, mas faco distincao de maiusculas e minusculas veja a solucao", comando: "( .replace() )", sintax: "veja a minha sintax", imagem: methodReplacei},
+    {id: 83, categoria: "string ", texto: "Eu substituo a todas ocorrencias da palavra pela palavra especificada", comando: "( .replace() )", sintax: "veja a minha sintax", imagem: methodReplaceg},
+    {id: 84, categoria: "string ", texto: "Eu substituo a todas ocorrencias de uma exprecao pela exprecao especificada", comando: "( .replace() )", sintax: "veja a minha sintax", imagem: methodReplaceAll},
+    {id: 85, categoria: "string ", texto: "Eu converto uma string em um array que cujo valores deste array serao as palavras da string separadas por virgulas, se for .split(\"\") as letras e que serao os valorses, mas do indicado serao as palavras", comando: "( .split() )", sintax: "veja a minha sintax", imagem: methodSplit},
+
 ];
