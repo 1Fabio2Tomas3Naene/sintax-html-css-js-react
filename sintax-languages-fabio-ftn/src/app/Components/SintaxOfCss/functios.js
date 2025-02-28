@@ -4,10 +4,10 @@ export const SintaxOfCssAll = () => {
     return SintaxOfCssArray
 }
 
-export const searchByTypedWordCss =(paravraDigitadaCss) =>{
+export const searchByTypedWordCss =(cssTypedWord) =>{
     return SintaxOfCssArray.filter((itens) => 
-        itens.categoria.toLowerCase().includes(paravraDigitadaCss.toLowerCase()) ||
-        itens.valor.toLowerCase().includes(paravraDigitadaCss.toLowerCase()) ||
-        itens.texto.toLowerCase().includes(paravraDigitadaCss.toLowerCase())
+        itens.categoria.toLowerCase().includes(cssTypedWord.toLowerCase()) ||
+        itens.valor.toLowerCase().includes(cssTypedWord.toLowerCase()) ||
+        itens.texto.toLowerCase().includes(cssTypedWord.toLowerCase())
     ) 
 }

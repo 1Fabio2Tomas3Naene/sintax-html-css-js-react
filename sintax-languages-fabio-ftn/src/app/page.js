@@ -30,17 +30,17 @@ export default function Home() {
   const [sintaxHtml, setSintaxHtml] = useState(allSintaxOfHtml);
   const [typedWord, setTypedWord] =useState("");
   const sintaxHtmlLenght = sintaxHtml.length;
-  const HandleFilterByTypedWord = (paravraDigitada) =>{
-    setSintaxHtml(searchByTypedWord(paravraDigitada))
-    setTypedWord(paravraDigitada)
+  const HandleFilterByTypedWord = (typedWordHtml) =>{
+    setSintaxHtml(searchByTypedWord(typedWordHtml))
+    setTypedWord(typedWordHtml)
   }
 
   const [sintaxCss, setSintaxCss] = useState(SintaxOfCssAll);
   const [typedWordCss, setTtpedWordCss] = useState(" ");
   const sintaxCssLenght = sintaxCss.length;
-  const HandleFilterByTypedWordCss =(palavraDigtadaCss) =>{
-    setSintaxCss(searchByTypedWordCss(palavraDigtadaCss))
-    setTtpedWordCss(palavraDigtadaCss);
+  const HandleFilterByTypedWordCss =(cssTypedWord) =>{
+    setSintaxCss(searchByTypedWordCss(cssTypedWord))
+    setTtpedWordCss(cssTypedWord);
   }
 
   const [sintaxJs, setSintaxJs] = useState(allSintaxesOfJs);

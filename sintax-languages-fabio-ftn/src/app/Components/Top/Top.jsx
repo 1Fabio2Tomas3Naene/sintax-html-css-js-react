@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "./Top.module.css";
 import { IoMoonOutline } from "react-icons/io5";
 import { RxSun } from "react-icons/rx";
-import { RiArrowRightDoubleLine } from "react-icons/ri";
+//import { RiArrowRightDoubleLine } from "react-icons/ri";
 import { RiArrowDownDoubleFill } from "react-icons/ri";
 import Logo from "../../../../public/sintax-logo.jpg";
 
