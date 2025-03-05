@@ -89,6 +89,11 @@ import methodEndsWith from "./assets/methodEndsWith.svg";
 import methodStartsWith from "./assets/methodStartsWith.svg";
 import methodFromCharCode from "./assets/methodFromCharCode.svg";
 import methodIncludes from "./assets/methodIncludes.svg";
+import methodLastIndexOf from "./assets/methodLastIndexOf.svg";
+import methodIndexOf from "./assets/methodIndexOf.svg";
+import methodSearch from "./assets/methodSearch.svg";
+import methodLocaleCompare from "./assets/methodLocaleCompare.svg";
+import methodLocaleCompareSensitivity from "./assets/methodLocaleCompareSensitivity.svg";
 
 
 export const sintaxesOfJs = [
@@ -178,9 +183,14 @@ export const sintaxesOfJs = [
     {id: 84, categoria: "string ", texto: "Eu substituo a todas ocorrencias de uma exprecao pela exprecao especificada", comando: "( .replace() )", sintax: "veja a minha sintax", imagem: methodReplaceAll},
     {id: 85, categoria: "string ", texto: "Eu converto uma string em um array que cujo valores deste array serao as palavras da string separadas por virgulas, se for .split(\"\") as letras e que serao os valorses, mas do indicado serao as palavras", comando: "( .split() )", sintax: "veja a minha sintax", imagem: methodSplit},
     {id: 86, categoria: "string ", texto: "Eu retorno o codigo do caractere no indice especificado, eu trabalho com todos caracteres incluindo icones simbolos monjis , ect", comando: "( .codePointAt() )", sintax: "veja a minha sintax", imagem: methodCodePointAt},
-    {id: 88, categoria: "string ", texto: "Eu retorno uma funcao construtora de uma string", comando: "( .constructor )", sintax: "veja a minha sintax", imagem: methodConstructor},
-    {id: 89, categoria: "string ", texto: "Eu verifico se a string termina com o valor dado ou nao, se sim retorno true, se nao retorno false", comando: "( .endsWith() )", sintax: "veja a minha sintax", imagem: methodEndsWith},
-    {id: 90, categoria: "string ", texto: "Eu verifico se a string comeca com o valor dado ou nao, se sim retorno true, se nao retorno false", comando: "( .startsWith() )", sintax: "veja a minha sintax", imagem: methodStartsWith},
-    {id: 91, categoria: "string ", texto: "Eu converto o ou os numeros para o charactere correspondente", comando: "( .fromCharCode() )", sintax: "veja a minha sintax", imagem: methodFromCharCode},
-    {id: 92, categoria: "string ", texto: "Eu verifico se o valor especifidado contem na string", comando: "( .includes() )", sintax: "veja a minha sintax", imagem: methodIncludes},
+    {id: 87, categoria: "string ", texto: "Eu retorno uma funcao construtora de uma string", comando: "( .constructor )", sintax: "veja a minha sintax", imagem: methodConstructor},
+    {id: 88, categoria: "string ", texto: "Eu verifico se a string termina com o valor dado ou nao, se sim retorno true, se nao retorno false", comando: "( .endsWith() )", sintax: "veja a minha sintax", imagem: methodEndsWith},
+    {id: 89, categoria: "string ", texto: "Eu verifico se a string comeca com o valor dado ou nao, se sim retorno true, se nao retorno false", comando: "( .startsWith() )", sintax: "veja a minha sintax", imagem: methodStartsWith},
+    {id: 90, categoria: "string ", texto: "Eu converto o ou os numeros para o charactere correspondente", comando: "( .fromCharCode() )", sintax: "veja a minha sintax", imagem: methodFromCharCode},
+    {id: 91, categoria: "string ", texto: "Eu verifico se o valor especifidado contem na string", comando: "( .includes() )", sintax: "veja a minha sintax", imagem: methodIncludes},
+    {id: 92, categoria: "string ", texto: "Eu retorno o indece da ultima ocorrencia do valor especificado", comando: "( .lastIndexOf() )", sintax: "veja a minha sintax", imagem: methodLastIndexOf},
+    {id: 93, categoria: "string ", texto: "Eu retorno o indece da primeira ocorrencia do valor especificado", comando: "( .indexOf() )", sintax: "veja a minha sintax", imagem: methodIndexOf},
+    {id: 94, categoria: "string ", texto: "Eu pesquiso um valor usando uma expresao regular e retorno o indece", comando: "( .search() )", sintax: "veja a minha sintax", imagem: methodSearch},
+    {id: 95, categoria: "string ", texto: "Eu comparo string1 com string2. se o retorno for -1: string1 vem antes da string2, se for 1: a string1 vem depois da string2, e se for 0: a string1 e a string2 sao iguais ", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: methodLocaleCompare},
+    {id: 96, categoria: "string ", texto: "Eu comparo string1 com string2. A qui eu faco com que o retorno seja 0, indicando que eu faco a string1 e a string2 serem iguais ", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: methodLocaleCompareSensitivity},
 ];
