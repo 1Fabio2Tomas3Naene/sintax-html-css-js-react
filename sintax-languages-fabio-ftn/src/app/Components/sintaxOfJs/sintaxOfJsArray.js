@@ -94,6 +94,18 @@ import methodIndexOf from "./assets/methodIndexOf.svg";
 import methodSearch from "./assets/methodSearch.svg";
 import methodLocaleCompare from "./assets/methodLocaleCompare.svg";
 import methodLocaleCompareSensitivity from "./assets/methodLocaleCompareSensitivity.svg";
+import wthatMatchDoes from "./assets/wthatMatchDoes.svg";
+import methodMatch01 from "./assets/methodMatch01.svg";
+import methodMatch02 from "./assets/methodMatch02.svg";
+import methodMatch03 from "./assets/methodMatch03.svg";
+import methodMatch04 from "./assets/methodMatch04.svg";
+import methodMatch05 from "./assets/methodMatch05.svg";
+import methodToLocaleLower from "./assets/methodToLocaleLower.svg";
+import methodToLocaleUpper from "./assets/methodToLocaleUpper.svg";
+import methodProtitype from "./assets/methodProtitype.svg";
+import methodValueOf from "./assets/methodValueOf.svg";
+import localeCompareAccent from "./assets/localeCompareAccent.svg";
+import localeCompareVariant from "./assets/localeCompareVariant.svg";
 
 
 export const sintaxesOfJs = [
@@ -193,4 +205,16 @@ export const sintaxesOfJs = [
     {id: 94, categoria: "string ", texto: "Eu pesquiso um valor usando uma expresao regular e retorno o indece", comando: "( .search() )", sintax: "veja a minha sintax", imagem: methodSearch},
     {id: 95, categoria: "string ", texto: "Eu comparo string1 com string2. se o retorno for -1: string1 vem antes da string2, se for 1: a string1 vem depois da string2, e se for 0: a string1 e a string2 sao iguais ", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: methodLocaleCompare},
     {id: 96, categoria: "string ", texto: "Eu comparo string1 com string2. A qui eu faco com que o retorno seja 0, indicando que eu faco a string1 e a string2 serem iguais ", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: methodLocaleCompareSensitivity},
+    {id: 97, categoria: "string ", texto: "Veja o que eu consigo fazer", comando: "( .match() )", sintax: "veja a minha sintax", imagem: wthatMatchDoes},
+    {id: 98, categoria: "string ", texto: "Eu pesquiso na string a primeira correspondencia da palavra especificada e retorno um array contendo a palavra, o indice, toda string e o grupo undefined ", comando: "( .match() )", sintax: "veja a minha sintax", imagem: methodMatch01},
+    {id: 99, categoria: "string ", texto: "Eu pesquiso na string a primeira correspondencia da palavra especificada nao importa se e maiuscula ou minuscula e retorno um array contendo a palavra, o indice, toda string e o grupo undefined ", comando: "( .match() )", sintax: "veja a minha sintax", imagem: methodMatch02},
+    {id: 100, categoria: "string ", texto: "Eu pesquiso na string todas correspondencias da palavra especificada nao importa se e maiuscula ou minuscula e retorno um array contendo apenas as correspondencias", comando: "( .match() )", sintax: "veja a minha sintax", imagem: methodMatch03},
+    {id: 101, categoria: "string ", texto: "Eu retorno um array contendo os numeros que existem no array", comando: "( .match() )", sintax: "veja a minha sintax", imagem: methodMatch04},
+    {id: 102, categoria: "string ", texto: "Eu verifico se uma palavra existe na string or nao, se nao retorno null", comando: "( .match() )", sintax: "veja a minha sintax", imagem: methodMatch05},
+    {id: 103, categoria: "string ", texto: "Eu converto as letras para maiusculas usando a regra local", comando: "( toLocaleUpperCase() )", sintax: "veja a minha sintax", imagem: methodToLocaleUpper},
+    {id: 104, categoria: "string ", texto: "Eu converto as letras para minusculas usando a regra local", comando: "( toLocaleLowerCase() )", sintax: "veja a minha sintax", imagem: methodToLocaleLower},
+    {id: 105, categoria: "string ", texto: "Eu permito adicionar propriedades ou metodos a um objecto", comando: "( prototype )", sintax: "veja a minha sintax", imagem: methodProtitype},
+    {id: 106, categoria: "string ", texto: "Eu extraio valores de uma string object", comando: "( .valueOf() )", sintax: "veja a minha sintax", imagem: methodValueOf},
+    {id: 107, categoria: "string ", texto: "Eu comparo string1 com string2, e levo em conta os acentos ", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: localeCompareAccent},
+    {id: 108, categoria: "string ", texto: "Eu comparo string1 com string2, e levo em conta os acentos e maiusculas e minusculas", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: localeCompareVariant},
 ];
