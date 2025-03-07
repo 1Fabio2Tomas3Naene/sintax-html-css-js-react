@@ -106,6 +106,8 @@ import methodProtitype from "./assets/methodProtitype.svg";
 import methodValueOf from "./assets/methodValueOf.svg";
 import localeCompareAccent from "./assets/localeCompareAccent.svg";
 import localeCompareVariant from "./assets/localeCompareVariant.svg";
+import methodEval from "./assets/methodEval.svg";
+import methodIsWellFormed from "./assets/methodIsWellFormed.svg";
 
 
 export const sintaxesOfJs = [
@@ -217,4 +219,6 @@ export const sintaxesOfJs = [
     {id: 106, categoria: "string ", texto: "Eu extraio valores de uma string object", comando: "( .valueOf() )", sintax: "veja a minha sintax", imagem: methodValueOf},
     {id: 107, categoria: "string ", texto: "Eu comparo string1 com string2, e levo em conta os acentos ", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: localeCompareAccent},
     {id: 108, categoria: "string ", texto: "Eu comparo string1 com string2, e levo em conta os acentos e maiusculas e minusculas", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: localeCompareVariant},
+    {id: 109, categoria: "string ", texto: "Eu faco strings serem tratados como codigo, except strings objectos", comando: "( eval() )", sintax: "veja a minha sintax", imagem: methodEval},
+    {id: 110, categoria: "string ", texto: "Eu verifico se uma string esta bem formada na sequencia utf-16, se sim retorno true, se nao false", comando: "( isWellFormed() )", sintax: "veja a minha sintax", imagem: methodIsWellFormed},
 ];
