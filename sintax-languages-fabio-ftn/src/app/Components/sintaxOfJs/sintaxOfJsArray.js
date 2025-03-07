@@ -108,7 +108,10 @@ import localeCompareAccent from "./assets/localeCompareAccent.svg";
 import localeCompareVariant from "./assets/localeCompareVariant.svg";
 import methodEval from "./assets/methodEval.svg";
 import methodIsWellFormed from "./assets/methodIsWellFormed.svg";
-
+import methodToWellFormed from "./assets/methodToWellFormed.svg";
+import methodFromCodePoint02 from "./assets/methodToWellFormed02.svg";
+import methodRaw02 from "./assets/methodRaw02.svg";
+import methodRaw from "./assets/methodRaw.svg";
 
 export const sintaxesOfJs = [
     {id: 1, categoria: "variaveis", texto: "Eu declaro uma variavel, ou seja, um armazem de dados que a mesma variavel pode ser reatribuida", comando: "( let )", sintax: "veja a minha sintax", imagem: letV},
@@ -221,4 +224,8 @@ export const sintaxesOfJs = [
     {id: 108, categoria: "string ", texto: "Eu comparo string1 com string2, e levo em conta os acentos e maiusculas e minusculas", comando: "( .localeCompare() )", sintax: "veja a minha sintax", imagem: localeCompareVariant},
     {id: 109, categoria: "string ", texto: "Eu faco strings serem tratados como codigo, except strings objectos", comando: "( eval() )", sintax: "veja a minha sintax", imagem: methodEval},
     {id: 110, categoria: "string ", texto: "Eu verifico se uma string esta bem formada na sequencia utf-16, se sim retorno true, se nao false", comando: "( isWellFormed() )", sintax: "veja a minha sintax", imagem: methodIsWellFormed},
+    {id: 111, categoria: "string ", texto: "Eu sou um método de string JavaScript que retorno uma versão UTF-16 bem formada da string, substituindo quaisquer caracteres substitutos não pareados pelo caractere de substituição Unicode", comando: "( toWellFormed() )", sintax: "veja a minha sintax", imagem: methodToWellFormed},
+    {id: 112, categoria: "string ", texto: "Eu retorno o caractere correspondente ao codigo especificado", comando: "( fromCodePoint() )", sintax: "veja a minha sintax", imagem: methodFromCodePoint02},
+    {id: 113, categoria: "string ", texto: "Isso e o que pode ser feito por mim", comando: "( .raw() )", sintax: "veja a minha sintax", imagem: methodRaw02},
+    {id: 114, categoria: "string ", texto: "Eu impeca que haja quebra de linha mesmo usando \\n para quebralas", comando: "( .raw() )", sintax: "veja a minha sintax", imagem: methodRaw},
 ];
