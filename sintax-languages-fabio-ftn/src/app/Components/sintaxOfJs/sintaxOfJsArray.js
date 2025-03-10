@@ -112,6 +112,16 @@ import methodToWellFormed from "./assets/methodToWellFormed.svg";
 import methodFromCodePoint02 from "./assets/methodToWellFormed02.svg";
 import methodRaw02 from "./assets/methodRaw02.svg";
 import methodRaw from "./assets/methodRaw.svg";
+import valueBoolean from "./assets/valueBoolean.svg";
+import conditionals from "./assets/conditionals.svg";
+import conditionalsExamples from "./assets/conditionalsExamples.svg";
+import logicalOperators from "./assets/logicalOperators.svg";
+import logicalOperatorOR from "./assets/logicalOperatorOR.svg";
+import logicalOperatorOR02 from "./assets/logicalOperatorOR02.svg";
+import logicalOperatorORShortCircuit from "./assets/logicalOperatorORShortCircuit.svg";
+import logicalOperatorAND from "./assets/logicalOperatorAND.svg";
+import logicalOperatorANDExample from "./assets/logicalOperatorANDExample.svg";
+
 
 export const sintaxesOfJs = [
     {id: 1, categoria: "variaveis", texto: "Eu declaro uma variavel, ou seja, um armazem de dados que a mesma variavel pode ser reatribuida", comando: "( let )", sintax: "veja a minha sintax", imagem: letV},
@@ -228,4 +238,16 @@ export const sintaxesOfJs = [
     {id: 112, categoria: "string ", texto: "Eu retorno o caractere correspondente ao codigo especificado", comando: "( fromCodePoint() )", sintax: "veja a minha sintax", imagem: methodFromCodePoint02},
     {id: 113, categoria: "string ", texto: "Isso e o que pode ser feito por mim", comando: "( .raw() )", sintax: "veja a minha sintax", imagem: methodRaw02},
     {id: 114, categoria: "string ", texto: "Eu impeca que haja quebra de linha mesmo usando \\n para quebralas", comando: "( .raw() )", sintax: "veja a minha sintax", imagem: methodRaw},
+    {id: 115, categoria: "boolean ", texto: "Eu retorno true ou false", comando: "( boolean )", sintax: "veja a minha sintax", imagem: valueBoolean},
+    {id: 116, categoria: "condicionais ", texto: "Eu executo ou nao um bloco de codigo se uma condicao for ou nao atendida", comando: "( if, else, else if, switch )", sintax: "veja a minha sintax", imagem: conditionals},
+    {id: 117, categoria: "condicionais ", texto: "Eu executo ou nao um bloco de codigo se uma condicao for ou nao atendida", comando: "( if, else if, else  )", sintax: "veja a minha sintax", imagem: conditionalsExamples},
+    {id: 118, categoria: "operadores logicos", texto: "Estes sao os tipos de operadores logicos que existem em javascript", comando: "( ||, &&, !, ??  )", sintax: "veja a minha sintax", imagem: logicalOperators},
+    {id: 119, categoria: "operadores logicos", texto: "Eu retorno true se um dos dois valores for true, e se ambos forem true. Retorno false se ambos forem false", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorOR},
+    {id: 120, categoria: "operadores logicos", texto: "Eu frequentimente sou usado nos ifs para executar um bloco de codigo se uma das condicoes for true", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorOR02},
+    {id: 121, categoria: "operadores logicos", texto: "Eu sou o curto circuito do || aqui o true impede a avalicao da expresao e o false permite a avaliacao da expresao", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorORShortCircuit},
+    {id: 122, categoria: "operadores logicos", texto: "Eu retorno true se ambos os operandos forem true, do contrario retorno false", comando: "( && )", sintax: "veja a minha sintax", imagem: logicalOperatorAND},
+    {id: 123, categoria: "operadores logicos", texto: "Aqui o bloco de codico sera executado se ambas as condicoes forem true", comando: "( && )", sintax: "veja a minha sintax", imagem: logicalOperatorANDExample},
+
+
+
 ];
