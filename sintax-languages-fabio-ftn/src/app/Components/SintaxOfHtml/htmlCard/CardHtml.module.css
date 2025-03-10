@@ -21,10 +21,11 @@ flex: 1 1 auto;
     font-size: 26px;
     text-align: center;
     color: #295e91;
+    display: none;
 }
 .img{
     width: 100%;
-    height: 50%;
+    height: 65%;
 }
 
 /*responsivo de  320px  ate  480px*/
@@ -52,6 +53,10 @@ flex: 1 1 auto;
             font-size: 16px;
         }
 }
+/*@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape){
+    .card{
+    }
+}*/
 
 /*RESPONSIVIDADE DE 481PX ATE 720PX*/
 @media screen and (min-width: 481px) and (max-width: 720px){
