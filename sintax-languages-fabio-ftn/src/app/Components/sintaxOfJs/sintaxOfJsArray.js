@@ -121,6 +121,10 @@ import logicalOperatorOR02 from "./assets/logicalOperatorOR02.svg";
 import logicalOperatorORShortCircuit from "./assets/logicalOperatorORShortCircuit.svg";
 import logicalOperatorAND from "./assets/logicalOperatorAND.svg";
 import logicalOperatorANDExample from "./assets/logicalOperatorANDExample.svg";
+import logicalOperatorNOT01 from "./assets/logicalOperatorNOT01.svg";
+import logicalOperatorNOT02 from "./assets/logicalOperatorNOT02.svg";
+import switchStatements from "./assets/switchStatements.svg";
+import ifElseTernary from "./assets/ifElseTernary.svg";
 
 
 export const sintaxesOfJs = [
@@ -242,12 +246,13 @@ export const sintaxesOfJs = [
     {id: 116, categoria: "condicionais ", texto: "Eu executo ou nao um bloco de codigo se uma condicao for ou nao atendida", comando: "( if, else, else if, switch )", sintax: "veja a minha sintax", imagem: conditionals},
     {id: 117, categoria: "condicionais ", texto: "Eu executo ou nao um bloco de codigo se uma condicao for ou nao atendida", comando: "( if, else if, else  )", sintax: "veja a minha sintax", imagem: conditionalsExamples},
     {id: 118, categoria: "operadores logicos", texto: "Estes sao os tipos de operadores logicos que existem em javascript", comando: "( ||, &&, !, ??  )", sintax: "veja a minha sintax", imagem: logicalOperators},
-    {id: 119, categoria: "operadores logicos", texto: "Eu retorno true se um dos dois valores for true, e se ambos forem true. Retorno false se ambos forem false", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorOR},
+    {id: 119, categoria: "operadores logicos", texto: "Eu retorno true se um dos dois valores for true, e se ambos forem true. Retorno false se ambos forem false,  em multiplas operacoes eu retorno o frimeiro true, se nao houver trues retorno o ultimo false", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorOR},
     {id: 120, categoria: "operadores logicos", texto: "Eu frequentimente sou usado nos ifs para executar um bloco de codigo se uma das condicoes for true", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorOR02},
     {id: 121, categoria: "operadores logicos", texto: "Eu sou o curto circuito do || aqui o true impede a avalicao da expresao e o false permite a avaliacao da expresao", comando: "( || )", sintax: "veja a minha sintax", imagem: logicalOperatorORShortCircuit},
-    {id: 122, categoria: "operadores logicos", texto: "Eu retorno true se ambos os operandos forem true, do contrario retorno false", comando: "( && )", sintax: "veja a minha sintax", imagem: logicalOperatorAND},
+    {id: 122, categoria: "operadores logicos", texto: "Eu retorno true se ambos os operandos forem true, do contrario retorno false, em multiplas operacoes eu retorno o frimeiro false, se nao houver falses retorno o ultimo true", comando: "( && )", sintax: "veja a minha sintax", imagem: logicalOperatorAND},
     {id: 123, categoria: "operadores logicos", texto: "Aqui o bloco de codico sera executado se ambas as condicoes forem true", comando: "( && )", sintax: "veja a minha sintax", imagem: logicalOperatorANDExample},
-
-
-
+    {id: 124, categoria: "operadores logicos", texto: "Eu converto para boolean e inverto o resultado da conversao retornando um valor boolean", comando: "( ! )", sintax: "veja a minha sintax", imagem: logicalOperatorNOT01},
+    {id: 125, categoria: "operadores logicos", texto: "Eu converto para boolean o primeiro valor e inverto o resultado da conversao retornando um valor boolean, e inverto mais uma vez o resultado da ultima inversao", comando: "( !! )", sintax: "veja a minha sintax", imagem: logicalOperatorNOT02},
+    {id: 126, categoria: "condicionais", texto: "Eu sirvo para tomar decisoes no codigo, quanto muitos coisas diferentes devem ser feitas com uma unica emtrada que pose receber diferentes valores", comando: "( switch )", sintax: "veja a minha sintax", imagem: switchStatements},
+    {id: 127, categoria: "condicionais", texto: "Eu sou o if...else sem o else if o chamado if ternario e sou usado quando queremos colocar codigos menores", comando: "( if...else )", sintax: "veja a minha sintax", imagem: ifElseTernary},
 ];
