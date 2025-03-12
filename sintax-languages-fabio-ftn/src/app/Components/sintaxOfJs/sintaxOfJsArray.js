@@ -125,6 +125,8 @@ import logicalOperatorNOT01 from "./assets/logicalOperatorNOT01.svg";
 import logicalOperatorNOT02 from "./assets/logicalOperatorNOT02.svg";
 import switchStatements from "./assets/switchStatements.svg";
 import ifElseTernary from "./assets/ifElseTernary.svg";
+import conditianalIFTERNARY02 from "./assets/conditianalIFTERNARY02.svg";
+import createHttpServerLocalHost from "./assets/createHttpServerLocalHost.svg";
 
 
 export const sintaxesOfJs = [
@@ -254,5 +256,8 @@ export const sintaxesOfJs = [
     {id: 124, categoria: "operadores logicos", texto: "Eu converto para boolean e inverto o resultado da conversao retornando um valor boolean", comando: "( ! )", sintax: "veja a minha sintax", imagem: logicalOperatorNOT01},
     {id: 125, categoria: "operadores logicos", texto: "Eu converto para boolean o primeiro valor e inverto o resultado da conversao retornando um valor boolean, e inverto mais uma vez o resultado da ultima inversao", comando: "( !! )", sintax: "veja a minha sintax", imagem: logicalOperatorNOT02},
     {id: 126, categoria: "condicionais", texto: "Eu sirvo para tomar decisoes no codigo, quanto muitos coisas diferentes devem ser feitas com uma unica emtrada que pose receber diferentes valores", comando: "( switch )", sintax: "veja a minha sintax", imagem: switchStatements},
-    {id: 127, categoria: "condicionais", texto: "Eu sou o if...else sem o else if o chamado if ternario e sou usado quando queremos colocar codigos menores", comando: "( if...else )", sintax: "veja a minha sintax", imagem: ifElseTernary},
+    {id: 127, categoria: "condicionais", texto: "Eu sou o if...else sem o else if o chamado if ternario e sou usado quando queremos colocar codigos menores", comando: "( ? )", sintax: "veja a minha sintax", imagem: ifElseTernary},
+    {id: 128, categoria: "condicionais", texto: "Eu sou o if...else sem o else if o chamado if ternario e sou usado quando queremos colocar codigos menores, mas tambem posso ter multiplas condicoes", comando: "( ? )", sintax: "veja a minha sintax", imagem: conditianalIFTERNARY02},
+    {id: 129, categoria: "server servidor localhost", texto: "Eu crio um servidor local", comando: "( server localhost )", sintax: "veja a minha sintax", imagem: createHttpServerLocalHost},
+
 ];
