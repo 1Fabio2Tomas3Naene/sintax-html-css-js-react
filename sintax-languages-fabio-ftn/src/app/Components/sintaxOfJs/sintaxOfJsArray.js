@@ -127,6 +127,27 @@ import switchStatements from "./assets/switchStatements.svg";
 import ifElseTernary from "./assets/ifElseTernary.svg";
 import conditianalIFTERNARY02 from "./assets/conditianalIFTERNARY02.svg";
 import createHttpServerLocalHost from "./assets/createHttpServerLocalHost.svg";
+import workingWithConsole01 from "./assets/workingWithConsole01.svg";
+import statementOfFunctioBasic01 from "./assets/statementOfFunctioBasic01.svg";
+import statementOfFunctioBasic02 from "./assets/statementOfFunctioBasic02.svg";
+import statementOfFunctioWithoutParameters from "./assets/statementOfFunctioWithoutParameters.svg";
+import statementOfFunctionAnonymousFunction from "./assets/statementOfFunctionAnonymousFunction.svg";
+import statementOfFunctionAnonymousFunction02 from "./assets/statementOfFunctionAnonymousFunction02.svg";
+import arrowFunction01 from "./assets/arrowFunction01.svg";
+import arrowFunction02 from "./assets/arrowFunction02.svg";
+import arrowFunction03 from "./assets/arrowFunction03.svg";
+import MathRandomAnArray01 from "./assets/MathRandomAnArray01.svg";
+import randomNumbers02 from "./assets/randomNumbers02.svg";
+import oldWayOfCreateFunctionsWithDefaultValue from "./assets/oldWayOfCreateFunctionsWithDefaultValue.svg";
+import retunsArrowFunction from "./assets/retunsArrowFunction.svg";
+import whenTheRetunsWrapLineFunction from "./assets/whenTheRetunsWrapLineFunction.svg";
+import functionExpression01 from "./assets/functionExpression01.svg";
+import functionExpression02 from "./assets/functionExpression02.svg";
+import howCanWeCallFunctions from "./assets/howCanWeCallFunctions.svg";
+import useFunctionsAsParametersCallBack from "./assets/useFunctionsAsParametersCallBack.svg";
+import useFunctionsAsParametersCallBack02 from "./assets/useFunctionsAsParametersCallBack02.svg";
+import functionExpressionScope from "./assets/functionExpressionScope.svg";
+import arrowFunctions04 from "./assets/arrowFunctions04.svg";
 
 
 export const sintaxesOfJs = [
@@ -259,5 +280,29 @@ export const sintaxesOfJs = [
     {id: 127, categoria: "condicionais", texto: "Eu sou o if...else sem o else if o chamado if ternario e sou usado quando queremos colocar codigos menores", comando: "( ? )", sintax: "veja a minha sintax", imagem: ifElseTernary},
     {id: 128, categoria: "condicionais", texto: "Eu sou o if...else sem o else if o chamado if ternario e sou usado quando queremos colocar codigos menores, mas tambem posso ter multiplas condicoes", comando: "( ? )", sintax: "veja a minha sintax", imagem: conditianalIFTERNARY02},
     {id: 129, categoria: "server servidor localhost", texto: "Eu crio um servidor local", comando: "( server localhost )", sintax: "veja a minha sintax", imagem: createHttpServerLocalHost},
+    {id: 130, categoria: "console", texto: "", comando: "( console )", sintax: "veja a minha sintax", imagem: workingWithConsole01},
+    {id: 131, categoria: "funcao funcoes", texto: "Esta e a forma basica de declarar uma funcao, os valores entre parenteses na funcao chamam-se parametros, e o valor entre parenteses no consoloe.log que esta no nome da funcao chamam-se argumentos", comando: "( function )", sintax: "veja a minha sintax", imagem: statementOfFunctioBasic01},
+    {id: 132, categoria: "funcao funcoes", texto: "Esta e a forma de escrever uma funcao com um valor padrao, depois pode seceber outros valores", comando: "( function )", sintax: "veja a minha sintax", imagem: statementOfFunctioBasic02},
+    {id: 133, categoria: "funcao funcoes", texto: "Esta e a forma de escrever uma funcao sem parametros", comando: "( function )", sintax: "veja a minha sintax", imagem: statementOfFunctioWithoutParameters},
+    {id: 134, categoria: "funcao funcoes", texto: "Esta e a forma de escrever funcoes anonimas, isto e funcoes que nao precisam de nome", comando: "( function )", sintax: "veja a minha sintax", imagem: statementOfFunctionAnonymousFunction},
+    {id: 135, categoria: "funcao funcoes", texto: "Esta e a forma de escrever funcoes anonimas, isto e funcoes que nao precisam de nome mas pode ter parametros", comando: "( function )", sintax: "veja a minha sintax", imagem: statementOfFunctionAnonymousFunction02},
+    {id: 136, categoria: "funcao funcoes arrow functions arrow function", texto: "Esta e a forma de escrever funcoes do tipo flecha, que neste caso nao precisam de nome mas pode ter parametros", comando: "( function )", sintax: "veja a minha sintax", imagem: arrowFunction01},
+    {id: 137, categoria: "funcao funcoes arrow functions arrow function", texto: "Esta e a forma de escrever funcoes do tipo flecha, que neste caso nao precisam de nome mas pode ter parametros, se a funcao carega um parametro pode nao ser parenteses ao redor", comando: "( function )", sintax: "veja a minha sintax", imagem: arrowFunction02},
+    {id: 138, categoria: "funcao funcoes arrow functions arrow function", texto: "Esta e a forma de escrever funcoes do tipo flecha, que neste caso pode ser feito isso se a funcao vao conter apenas uma linha, omitindo a palavra chave return", comando: "( function )", sintax: "veja a minha sintax", imagem: arrowFunction03},
+    {id: 139, categoria: "Math", texto: "esta e a forma de randomizar um array, isto e retornando um elemento aleatorio do array", comando: "( Math.floor(Math.random()) )", sintax: "veja a minha sintax", imagem: MathRandomAnArray01},
+    {id: 140, categoria: "Math", texto: "esta e a forma de gerar um numero aleatorio", comando: "( Math.floor(Math.random()) )", sintax: "veja a minha sintax", imagem: randomNumbers02},
+    {id: 141, categoria: "funcao funcoes arrow functions arrow function", texto: "Esta e a forma de criar funcoes com um valor padrao, pode ser usada mas nao recomendada, visto que existe a forma moderna", comando: "( function )", sintax: "veja a minha sintax", imagem: oldWayOfCreateFunctionsWithDefaultValue},
+    {id: 142, categoria: "funcao funcoes arrow functions arrow function", texto: "Esta e a forma de criar funcoes do tipo flecha, e essa e a forma de retornas o resultada de uma funcao", comando: "( function )", sintax: "veja a minha sintax", imagem: retunsArrowFunction},
+    {id: 143, categoria: "funcao funcoes", texto: "Esta e aforma basica de criar funcoes que o retorno necessita de muitas linhas", comando: "( function )", sintax: "veja a minha sintax", imagem: whenTheRetunsWrapLineFunction},
+    {id: 144, categoria: "funcao funcoes function expression", texto: "Esta e aforma de criar funcoes chamada expressao de funcao. Aqui o retorno da funcao e armazenada nesta varial, esta forma tambem tem caracteristicas de uma funcao anomina porque nao tem nome, e esta e uma das formas de imprimir o resultada", comando: "( function )", sintax: "veja a minha sintax", imagem: functionExpression01},
+    {id: 145, categoria: "funcao funcoes function expression", texto: "Esta e aforma de criar funcoes chamada expressao de funcao. Aqui o retorno da funcao e armazenada nesta varial, esta forma tambem tem caracteristicas de uma funcao anomina porque nao tem nome, e esta e uma das formas de imprimir o resultada", comando: "( function )", sintax: "veja a minha sintax", imagem: functionExpression02},
+    {id: 146, categoria: "funcao funcoes", texto: "Estas sao as formas de chamar uma funcao", comando: "( function )", sintax: "veja a minha sintax", imagem: howCanWeCallFunctions},
+    {id: 147, categoria: "funcao funcoes", texto: "Esta e a forma de usar funcoes como parametros duma funcao, as funcoes que aqui sao parametros sao chamadas tambem de callBack, pois seram retornadas quando necerario", comando: "( function )", sintax: "veja a minha sintax", imagem: useFunctionsAsParametersCallBack},
+    {id: 148, categoria: "funcao funcoes", texto: "Esta e a forma de usar funcoes como parametros duma funcao, as funcoes que aqui sao parametros sao chamadas tambem de callBack, pois seram retornadas quando necerario", comando: "( function )", sintax: "veja a minha sintax", imagem: useFunctionsAsParametersCallBack02},
+    {id: 149, categoria: "funcao funcoes function expression", texto: "Esta a chamada expressao de funcao, e util porque pode trabalhar fora e dentro do escopo como este exemplo", comando: "( function )", sintax: "veja a minha sintax", imagem: functionExpressionScope},
+    {id: 150, categoria: "funcao funcoes arrow functions", texto: "Este e o tipo de funcoes do tipo flecha, podemos otimir os pararenteses ao redor dos parametros se for apenas um, e se o retorno e breve podemos tambem omitir a palavra chave return", comando: "( function )", sintax: "veja a minha sintax", imagem: arrowFunctions04},
+
+
+
 
 ];
